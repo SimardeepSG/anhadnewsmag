@@ -1,3 +1,4 @@
+// these buttons are not needed
 const  Home = () => {
 
 
@@ -8,8 +9,18 @@ const  Home = () => {
         console.log(name)
     }
 
+
     return ( 
         <div className="home">
+
+            <div className="home-page-div">
+          <h1>ANHAD</h1>
+          <p>a student-run sikh sprint & multimedia magazine</p>
+          <p>inspiring a new wave of sikh literacy</p>
+           <p>and connectedness to our guru</p>
+           
+        </div>
+
             <h2>
                 Homepage
             </h2>
@@ -21,15 +32,6 @@ const  Home = () => {
             <button class="b-homepage" onClick= {() => {
                 handleClickAgain ('mario')
             }}> CLick me </button>
-
-
-<ul>
-  <li><span>home</span></li>
-  <li><span>products</span></li>
-  <li><span>services</span></li>
-  <li><span>contact</span></li>
-</ul>
-
 
 
         </div>

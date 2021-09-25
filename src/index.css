@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tenor Sans');
 
 /* base styles */
 * {
@@ -14,7 +15,7 @@
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
 }
-.navbar h1 {
+.navbar h2 {
   color: #f1356d;
 }
 .navbar .links {
@@ -67,6 +68,30 @@
   }
 }
 
+.home-page-div{
+  margin-top: 10%
+}
+
+.home-page-div h1{
+  font-size: 150px;
+  color: black;
+  font-family: "Tenor Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.home-page-div p{
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: bolder;
+  font-size: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+ 
+}
 /* 2 CLICK ME BUTTONS ON HOMEPAGE*/
 .b-homepage{
   background-color: #FBACCC;
@@ -74,7 +99,7 @@
   font-size: 18px;
 }
 
-/* 4 extra buttons on hompegae - Just trying out css */
+/* 4 extra buttons on Sample Page - Just trying out css */
 ul {
   padding: 0;
   list-style-type: none;
