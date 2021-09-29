@@ -1,14 +1,15 @@
-// these buttons are not needed
 const  Home = () => {
 
+//     // these buttons are not needed
+// /*
+//     const handleClick = (e) => {
+//         console.log('sdafasdfasdf', e)
+//     }
+//     const handleClickAgain = (name) => {
+//         console.log(name)
+//     }
 
-    const handleClick = (e) => {
-        console.log('sdafasdfasdf', e)
-    }
-    const handleClickAgain = (name) => {
-        console.log(name)
-    }
-
+// */
 
     return ( 
         <div className="home">
@@ -21,7 +22,8 @@ const  Home = () => {
            
         </div>
 
-            <h2>
+
+            {/* <h2>
                 Homepage
             </h2>
             <button class="b-homepage" onClick={handleClick}> CLick me </button>
@@ -31,7 +33,7 @@ const  Home = () => {
             &nbsp;
             <button class="b-homepage" onClick= {() => {
                 handleClickAgain ('mario')
-            }}> CLick me </button>
+            }}> CLick me </button> */}
 
 
         </div>
