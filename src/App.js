@@ -6,7 +6,7 @@ import Staff from './Staff';
 import Contact from './Contact';
 import About from './About';
 import Donate from './Donate';
-import Subscribe from './Subscribe';
+
 
 function App() {
   return (
@@ -57,6 +57,7 @@ function App() {
       
       </div>
     </div>
+    <Footer /> 
 
     </Router>
   );
