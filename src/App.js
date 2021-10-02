@@ -6,7 +6,7 @@ import Staff from './Staff';
 import Contact from './Contact';
 import About from './About';
 import Donate from './Donate';
-import Footer from './Footer';
+
 
 function App() {
   return (
@@ -47,6 +47,12 @@ function App() {
             <Route path="/Donate"> 
               <Donate />
             </Route>
+
+            <Route path="/Subscribe"> 
+              <Subscribe />
+            </Route>
+            
+
         </Switch>
       
       </div>

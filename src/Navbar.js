@@ -9,6 +9,7 @@ const  Navbar = () => {
                 <a href="/about">About</a>
                 <a href="/contact">Contact</a>
                 <a href="/donate">Donate</a>
+                <a href="/subscribe">Mail</a>
             </div>
 
         </nav>
