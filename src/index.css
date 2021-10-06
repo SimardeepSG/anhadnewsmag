@@ -5,28 +5,44 @@
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
 }
+
+
 .navbar {
   padding: 20px;
-
+  width: 100%;
   margin: 0 auto;
   border-bottom: 1px solid #f2f2f2;
+  /* background-color: black; */
+  background-color:silver;
+  
 }
 .navbar h2 {
   color: #f1356d;
+  margin-left: auto;
+  font-size: 30px;
+  /* background: #F875AA; */
 }
 .navbar .links {
-  margin-left: auto;
+  margin-left: 250px;
 }
 .navbar a {
   margin-left: 16px;
   text-decoration: none;
-  padding: 6px;
-  color: #f1356d;
+  padding: 10spx;
+  /* color: #f1356d; */
+  color: #FF474A;
+  margin-left: 40px;
+  font-size: 20px;
 }
+
+/* made changes in hovering effects */
 .navbar a:hover {
-  color: white;
+   /* color: white;  */
+   color: #FBFF44;
+  font-weight: bold;
+  padding: 10px;
+  
 }
 .content {
   max-width: auto;
@@ -44,13 +60,14 @@
   transform-origin: bottom left;
 }
 
+/* the hovering transition is not working smh */
 .navbar a::before {
   content: " ";
   display: block;
   position: absolute;
   top: 0; right: 0; bottom: 0; left: 0;
   inset: 0 0 0 0;
-  background: #f1356d;
+  background-color: greenyellow;
   z-index: -1;
   transition: transform .3s ease;
 }
@@ -59,14 +76,6 @@
   position: relative;
 }
 
-.footer {
-  position: fixed;
-  left: 50%;
-  bottom: 20px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  
-}
 
 @media (orientation: landscape) {
   body {
@@ -80,7 +89,8 @@
 
 .home-page-div h1{
   font-size: 150px;
-  color: black;
+  /* color: black; */
+  color: #FBFF44;
   font-family: "Tenor Sans";
   display: flex;
   justify-content: center;
@@ -96,16 +106,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  color: #BCFF47;
  
 }
-/* 2 CLICK ME BUTTONS ON HOMEPAGE*/
-.b-homepage{
-  background-color: #FBACCC;
-  color: #070D59;
-  font-size: 18px;
-}
+
 
 /* 4 extra buttons on Sample Page - Just trying out css */
+
 ul {
   padding: 0;
   list-style-type: none;
@@ -115,7 +122,8 @@ li {
   font-size: 25px;
   width: 8em;
   height: 2em;
-  color: #F875AA;
+  background-color: white;
+  color: #F875AA; 
   border-left: 0.08em solid;
   position: relative;
   margin-top: 0.8em;
@@ -166,7 +174,24 @@ li:hover span {
   transform: translateX(0.15em);
 }
 
+
 /* ends here */
+
+
+.footer{
+  font-family: "Tenor Sans";
+  width: 100%;
+  position:fixed;
+  bottom:0;
+  height: 60px;
+  line-height: 60px;
+  font-size: 17px;
+  font-weight: 800;
+  background-color: #FF474A;
+  color: #000000;
+  text-align: center;
+
+}
 
 /* not working */
 .contact-button{
