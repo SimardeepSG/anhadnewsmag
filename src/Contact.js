@@ -1,9 +1,9 @@
 const  Contact= () => {
     return (
-        <div classname="contact">
+        <div className="contact">
 
             <h3>Find us here</h3>
-            <div classname = "contact-button">
+            <div className = "contact-button">
             <a href="https://www.instagram.com/anhadmagazine/"> Instagram</a>
             <a href = "https://twitter.com/anhadmagazine?lang=en">Twitter</a>
             </div>

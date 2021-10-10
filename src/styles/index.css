@@ -1,72 +1,34 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Tenor Sans');
 
+:root {
+  --white: #fffffa;
+  --darkGrey: #292f36;
+}
+
+.Content {
+  padding: 0%;
+  padding-left: 0%;
+  margin-left: 0%;
+  /* max-width: auto;
+  margin: 40px auto;
+  padding: 20px;
+} */
+  padding-bottom: 20px;
+} 
+
+html {
+  box-sizing: border-box;
+}
+
 /* base styles */
 * {
   margin: 0;
   font-family: "Quicksand";
-  color: #333;
-}
-.navbar {
-  padding: 20px;
-
-  margin: 0 auto;
-  border-bottom: 1px solid #f2f2f2;
-}
-.navbar h2 {
-  color: #f1356d;
-}
-.navbar .links {
-  margin-left: auto;
-}
-.navbar a {
-  margin-left: 16px;
-  text-decoration: none;
-  padding: 6px;
-  color: #f1356d;
-}
-.navbar a:hover {
-  color: white;
-}
-.content {
-  max-width: auto;
-  margin: 40px auto;
-  padding: 20px;
+  overflow: hidden;
 }
 
-.navbar a::before {  
-  transform: scaleX(0);
-  transform-origin: bottom right;
-}
 
-.navbar a:hover::before {
-  transform: scaleX(1);
-  transform-origin: bottom left;
-}
-
-.navbar a::before {
-  content: " ";
-  display: block;
-  position: absolute;
-  top: 0; right: 0; bottom: 0; left: 0;
-  inset: 0 0 0 0;
-  background: #f1356d;
-  z-index: -1;
-  transition: transform .3s ease;
-}
-
-.navbar a {
-  position: relative;
-}
-
-.footer {
-  position: fixed;
-  left: 50%;
-  bottom: 20px;
-  transform: translate(-50%, -50%);
-  margin: 0 auto;
-  
-}
 
 @media (orientation: landscape) {
   body {
@@ -166,11 +128,37 @@ li:hover span {
   transform: translateX(0.15em);
 }
 
-/* ends here */
 
-/* not working */
-.contact-button{
-  padding: 10px;
-  color: green;
-  text-decoration: none;
+/* for the mailing page */
+
+.bodyofmail {
+  background-image: url(../images/floating-cogs\.svg);
+  background-color: var(--darkGrey);
+  margin: 0px;
+  width: 100%;
+  height: 100vh;
+
 }
+
+.Background {
+  display: grid;
+  overflow: hidden;
+  grid-gap: 10px;
+  grid-template-columns: 1fr;
+  width: auto;
+  height: auto;
+  grid-template-rows: 100px auto 50px auto 100px auto;
+  grid-template-areas: 
+  "countdown"
+  "logo"
+  "descriptiion"
+  "subscrie"
+  "social";
+  justify-items: center;
+  align-items: center;
+  color: var(--white);
+  
+
+}
+
+

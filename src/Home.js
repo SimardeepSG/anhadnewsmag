@@ -16,24 +16,13 @@ const  Home = () => {
 
             <div className="home-page-div">
           <h1>ANHAD</h1>
-          <p>a student-run sikh sprint & multimedia magazine</p>
+          <p>a student-run sikh sprint and multimedia magazine</p>
           <p>inspiring a new wave of sikh literacy</p>
            <p>and connectedness to our guru</p>
            
         </div>
 
-
-            {/* <h2>
-                Homepage
-            </h2>
-            <button class="b-homepage" onClick={handleClick}> CLick me </button>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <button class="b-homepage" onClick= {() => {
-                handleClickAgain ('mario')
-            }}> CLick me </button> */}
+            
 
 
         </div>

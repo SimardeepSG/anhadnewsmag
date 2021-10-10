@@ -1,0 +1,56 @@
+.NavbarAnhad {
+  color: #f1356d;
+  float: left;
+}
+
+.NavbarAnhad {
+  color: #f1356d;
+  float: left;
+}
+
+.navbar {
+    padding: 20px;
+    margin: 0 auto;
+    border: 1px solid #f2f2f2;
+    
+  }
+  
+  .navbar .links {
+    margin-left: auto;
+    float: right;
+    margin-top: auto;
+  }
+  .navbar a {
+    margin-left: 16px;
+    text-decoration: none;
+    color: #f1356d;
+    position: relative;
+    padding: 10px;
+  }
+  
+  .navbar a:hover {
+    color: white;
+  }
+  
+  .navbar a::before {  
+    transform: scaleX(0);
+    transform-origin: bottom right;
+  }
+  
+  .navbar a:hover::before {
+    transform: scaleX(1);
+    transform: scaleY(2);
+    transform-origin: bottom left;
+  }
+  
+  .navbar a::before {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    inset: 0 0 0 0;
+    background: #f1356d;
+    z-index: -1;
+    transition: transform .3s ease;
+  }
+  

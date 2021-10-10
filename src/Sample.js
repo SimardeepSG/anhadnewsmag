@@ -1,6 +1,6 @@
 const Sample = () => {
     return (  
-    <div classname ="sample">
+    <div className ="sample">
         <h2> Find our previous versions ! :)</h2>
 
         <ul>

@@ -6,6 +6,8 @@ import Staff from './Staff';
 import Contact from './Contact';
 import About from './About';
 import Donate from './Donate';
+import Footer from './Footer';
+import MailingForm from './MailingForm';
 
 
 function App() {
@@ -15,8 +17,8 @@ function App() {
 
 
     <div className="App">
-       <Navbar />                         
       
+      <Navbar />                         
       <div className="content">
         {/* removed  <h1>Anhad|ਅਨਹਦ </h1> from here */}
 
@@ -49,18 +51,32 @@ function App() {
             </Route>
 
             <Route path="/Subscribe"> 
-              <Subscribe />
             </Route>
+          
+            <Route path="/MailingForm" > 
+              <body className = "bodyofmail">
+              <MailingForm />
+              </body>
+              
+            </Route>
+        
             
 
         </Switch>
       
+        
       </div>
-    </div>
-    <Footer /> 
+    </div> 
+  
+
+    <div className = 'FooterCompartment'>
+      <Footer /> 
+    </div>   
 
     </Router>
+     
   );
+  
 }
 
 export default App;

@@ -1,6 +1,6 @@
 const Staff = () => {
     return ( 
-        <div classname="staff-info">
+        <div className="staff-info">
             <h2> 
                 Our staff :-
             </h2>
