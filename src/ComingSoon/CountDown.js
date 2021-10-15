@@ -1,5 +1,7 @@
 import React, {Component} from "react";
 import moment, {duration} from "moment";
+import '../styles/comingSoon/Countdown.css';
+
 
 
 class CountDown extends Component {

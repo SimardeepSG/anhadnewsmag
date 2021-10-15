@@ -69,9 +69,8 @@ function App() {
     </div> 
   
 
-    <div className = 'FooterCompartment'>
       <Footer /> 
-    </div>   
+   
 
     </Router>
      

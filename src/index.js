@@ -4,7 +4,7 @@ import './styles/index.css';
 import App from './App';
 import './styles/navbar.css';
 import './styles/footer.css';
-import './styles/Countdown.css';
+
 
 ReactDOM.render(
   <React.StrictMode>
