@@ -1,0 +1,25 @@
+.title {
+    grid-area: title;
+    display: grid;
+    grid-gap: 20px;
+    width: 100%;
+    max-width: 700px; 
+    grid-template-columns: 1fr auto 1fr;
+    align-items: center;
+}
+
+/* becaus we have defined the grid the before and after pseudo elements will apply in those columns as opposed to above of below the item */
+
+.title:before, 
+.title:after {
+    display: block;
+    content: "";
+    height: 10px;
+}
+
+.title:before {
+    background: linear-gradient(to left, var(--white), transparent)
+}
+.title:after {
+    background: linear-gradient(to right, var(--white), transparent)
+}
