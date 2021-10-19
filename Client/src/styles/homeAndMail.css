@@ -1,0 +1,115 @@
+.home {
+    overflow: scroll;
+  }
+
+  .home-page-div::before {
+    content: ' ';
+    position: absolute;
+    z-index: -1;   
+    background-image: url('../images/GGSPic.jpg') ;
+    background-blend-mode: multiply;
+    box-shadow: inset 0 0 0 100vw rgba(255, 218, 178, .5);
+    background-size: 100% 80%;   
+    top: 0px;
+    right: -600px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    background-repeat: no-repeat;
+    transform: translate(-500px);
+    transform: translateY(62px);
+
+  }
+
+  .home-page-div h2{
+    font-size: 30px;
+    color: black;
+    display: grid;
+    font-family: "Tenor Sans" ;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1%;
+    font-weight: lighter;
+    transform: translateY(70px);
+  
+  }
+
+  .home-page-div h1{
+    font-size: 16.39vw;
+    color: black;
+    font-family: "Prabhki";
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    grid-area: Anhad;
+    margin-top: .005%;
+    overflow: auto;
+    font-weight: lighter;
+  
+  }
+  .arrow {
+    font-size: 100.0vw;
+    color: black;
+    font-family: "Tensor Sans";
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+  
+  }
+  
+  
+  
+  .home-page-div p{
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: 1.69vw;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    grid-area: descriptio; 
+    
+   
+  }
+
+  .blankspace {
+      padding: 1vh;
+  }
+  .bodyofmail {
+    /* background-color: var(--yellow); */
+    margin: 0px;
+    width: 100%;
+    height: 100vh;
+    overflow: scroll;
+    color: var(--white);
+  
+  }
+
+
+  
+  .Background {
+    display: grid;
+    overflow: hidden;
+    grid-gap: 10px;
+    grid-template-columns: 1fr;
+    width: auto;
+    height: auto;
+    grid-template-rows: 100px auto 100px auto 100px auto 100px auto 100px auto 100px auto 100px auto;
+    grid-template-areas:
+    "Anhad"
+    "subscribe"
+    "descriptio"
+    "blankspace"
+    "comingsoon"
+    "countdown"
+    "logo"
+    "title"
+    "description"
+    "social";
+    justify-items: center;
+    align-items: center;
+    color: var(--white);
+    
+  
+  }

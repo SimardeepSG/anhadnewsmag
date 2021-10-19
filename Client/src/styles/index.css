@@ -6,6 +6,7 @@
 :root {
   --white: #fffffa;
   --darkGrey: #292f36;
+  --yellow: #fbff44;
 }
 
 .Content {
@@ -39,30 +40,7 @@ html {
   }
 }
 
-.home-page-div{
-  margin-top: 10%
-}
 
-.home-page-div h1{
-  font-size: 150px;
-  color: black;
-  font-family: "Tenor Sans";
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.home-page-div p{
-  font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
-  font-weight: bolder;
-  font-size: 28px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
- 
-}
 /* 2 CLICK ME BUTTONS ON HOMEPAGE*/
 .b-homepage{
   background-color: #FBACCC;
@@ -134,37 +112,5 @@ li:hover span {
 
 /* for the mailing page */
 
-.bodyofmail {
-  background-image: url(../images/floating-cogs\.svg);
-  background-color: var(--darkGrey);
-  margin: 0px;
-  width: 100%;
-  height: 100vh;
-  overflow: auto;
-
-}
-
-.Background {
-  display: grid;
-  overflow: hidden;
-  grid-gap: 10px;
-  grid-template-columns: 1fr;
-  width: auto;
-  height: auto;
-  grid-template-rows: 100px auto 250px auto 100px auto 100px auto 100px auto 100px auto 100px auto 100px auto;
-  grid-template-areas: 
-  "comingsoon"
-  "countdown"
-  "logo"
-  "title"
-  "description"
-  "subscribe"
-  "social";
-  justify-items: center;
-  align-items: center;
-  color: var(--white);
-  
-
-}
 
 

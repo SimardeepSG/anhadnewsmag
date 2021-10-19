@@ -2,7 +2,7 @@
     grid-area: subscribe; 
     display: grid; 
     grid-gap: 10px;
-    grid-template-columns: [input] 4fr [button] 1fr;
+    grid-template-columns: [input] [button] ;
     align-items: center;
 }
 
@@ -10,8 +10,8 @@
     grid-area: input; 
     border-radius: 4px;
     height: 40px;
-    background-color: black;
-    border: 1px solid var(--white);
+    background-color: #ffdab9;
+    border: 1px solid #bb9770;
     color: var(--white);
     padding-left: 10px;
     /* so text is not bumped to edge of the input area section */
@@ -20,11 +20,16 @@
     font-size: 16px;
     transition: all 0.2s ease-in;
     /* make transition on hover much smoother */
+    width: 250px;
+    place-items: center;
+    display: flex;
+    justify-content: center;
+
 }
 
 .subscribe-email::placeholder {
     /* gaining acess to the pseudo element so can format that */
-    color: var(--white);
+    color: #bb9770;
     font-size: 16px;
 }
 
@@ -38,14 +43,17 @@
 .subscribe-button {
     grid-area: button; 
     height: 40px; 
-    background-color: green;
-    border: 1px solid black;
+    background-color: #bb9770;
+    border: 1px solid #bb9770;
     border-radius: 4px; 
     padding: 10px;
     font-size: 16px; 
     font-weight: bolder;
     cursor: pointer;
     transition: all 0.2s ease-in;
+    align-items: center;
+    width: 100px;
+    transform: translate(270px)    
 }
 
 .subscribe-button:hover {
@@ -61,11 +69,25 @@
     .subscribe {
         grid-template-areas:
         "input"
-        "subscribe"
-    }
+        "subscribe";
+        grid-template-columns: none;
+        }
     .subscribe-button, 
     .subscribe-email {
-        width: 250px;
-        grid-column: 1 / -1;
+        width: 150px;
+        grid-column: 1;
+        justify-self: center;
+    }
+
+    .subscribe-email {
+        grid-area: "input";
+    }
+
+    .subscribe-button {
+        transform: translate(0px);
+        justify-self: center;
+        align-content: center;
+        grid-area: "subscribe";
+
     }
 }
