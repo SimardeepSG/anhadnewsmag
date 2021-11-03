@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./styles/homeAndMail.css";
 import Subscribe from "./ComingSoon/subscribe";
+import Varrow from "./Varrow";
 
 class Home extends Component {
   //     // these buttons are not needed
@@ -31,17 +32,21 @@ class Home extends Component {
           <div className="home-page-div">
             <h2> Anhad Magazine</h2>
             <h1>Anhd</h1>
-            <p>a student-run sikh sprint and multimedia magazine</p>
-            <p>inspiring a new wave of sikh literacy</p>
-            <p>and connectedness to our guru</p>
+            <p>A student-run sikh sprint and multimedia magazine</p>
+            <p>
+              inspiring a new wave of sikh literacy and connectedness to our
+              guru
+            </p>
             <div className="blankspace"></div>
             <Subscribe
               placeholder={subscribe.placeholder}
               buttonText={subscribe.buttonText}
             ></Subscribe>
           </div>
+          <div class="Arrow">
+            <Varrow></Varrow>
+          </div>
         </body>
-        <div className="arrow">╲╱</div>
       </div>
     );
   }

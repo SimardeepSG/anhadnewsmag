@@ -1,7 +1,13 @@
 .home {
     overflow: scroll;
+    
   }
 
+  .home-page-div{
+    overflow: scroll;
+    height: 200vh;
+    margin-top: -5%;
+  }
   .home-page-div::before {
     content: ' ';
     position: absolute;
@@ -22,7 +28,7 @@
   }
 
   .home-page-div h2{
-    font-size: 30px;
+    font-size: 1.94vw;
     color: black;
     display: grid;
     font-family: "Tenor Sans" ;
@@ -30,7 +36,9 @@
     align-items: center;
     margin-top: 1%;
     font-weight: lighter;
-    transform: translateY(70px);
+    margin-top: 10%;
+
+
   
   }
 
@@ -42,9 +50,8 @@
     justify-content: center;
     align-items: center;
     grid-area: Anhad;
-    margin-top: .005%;
-    overflow: auto;
     font-weight: lighter;
+    margin-top: -4%;
   
   }
   .arrow {
@@ -60,7 +67,7 @@
   
   
   .home-page-div p{
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Argent";
     font-style: italic;
     font-weight: bolder;
     font-size: 1.69vw;
@@ -73,6 +80,19 @@
    
   }
 
+.Arrow{
+  position: absolute;
+  bottom: 50px;
+  justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  
+  
+}
+
+
   .blankspace {
       padding: 1vh;
   }
@@ -81,7 +101,7 @@
     margin: 0px;
     width: 100%;
     height: 100vh;
-    overflow: scroll;
+    overflow: auto;
     color: var(--white);
   
   }

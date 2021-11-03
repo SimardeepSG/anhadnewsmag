@@ -8,7 +8,6 @@
 
 .subscribe-email {
     grid-area: input; 
-    border-radius: 4px;
     height: 40px;
     background-color: #ffdab9;
     border: 1px solid #bb9770;
@@ -24,6 +23,7 @@
     place-items: center;
     display: flex;
     justify-content: center;
+    transform: translate(-25px);
 
 }
 
@@ -42,18 +42,16 @@
 
 .subscribe-button {
     grid-area: button; 
-    height: 40px; 
+    height: 44px; 
     background-color: #bb9770;
     border: 1px solid #bb9770;
-    border-radius: 4px; 
-    padding: 10px;
     font-size: 16px; 
     font-weight: bolder;
     cursor: pointer;
     transition: all 0.2s ease-in;
     align-items: center;
     width: 100px;
-    transform: translate(270px)    
+    transform: translate(239px)    
 }
 
 .subscribe-button:hover {
@@ -77,6 +75,8 @@
         width: 150px;
         grid-column: 1;
         justify-self: center;
+        transform: none;
+
     }
 
     .subscribe-email {

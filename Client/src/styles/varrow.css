@@ -1,0 +1,23 @@
+.arrow {
+    font-size: 6.5vh;
+    color: #bb9770;
+    text-align: center;
+    
+}
+
+.arrowDiv {
+        transform: translateY(1px);
+
+    transition: all 0.2s ease-in;
+
+}
+
+.arrowDiv {
+    background-color: #e4c1a1;
+}
+
+.arrowDiv:hover {
+    filter: brightness(115%)
+}
+
+

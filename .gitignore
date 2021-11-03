@@ -1,4 +1,4 @@
 /node_modules
-*.env
+*variables.env
 # any env file will not go into github repo
 

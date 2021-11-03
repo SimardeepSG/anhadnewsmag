@@ -1,23 +1,17 @@
 .NavbarAnhad {
-  color: #f1356d;
-  float: left;
-}
-
-.NavbarAnhad {
-  color: #f1356d;
+  color: #bb9770;
   float: left;
 }
 
 .navbar {
     padding: 10px;
     margin: 0 auto;
-    border: 1px solid #f2f2f2;
+    border: 1px solid #bb9770;
     align-content: center;
     align-items: center;
     align-self: center;
     justify-content: center;
-
-    
+    background-color: #ffdab9;
   }
   
   .navbar .links {
@@ -32,10 +26,11 @@
   .navbar a {
     margin-left: 16px;
     text-decoration: none;
-    color: #f1356d;
+    color: #bb9770;
     position: relative;
     padding: 10px;
     margin-bottom: auto;
+    font-weight: bolder;
   }
   
   .navbar a:hover {
@@ -59,7 +54,7 @@
     position: absolute;
     top: 0; right: 0; bottom: 0; left: 0;
     inset: 0 0 0 0;
-    background: #f1356d;
+    background: #ffdab9;
     z-index: -1;
     transition: transform .3s ease;
   }
