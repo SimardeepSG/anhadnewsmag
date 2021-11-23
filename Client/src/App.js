@@ -1,7 +1,7 @@
 import Navbar from "./Navbar";
 import Home from "./Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Sample from "./Sample";
+import Gallery from "./Gallery";
 import Staff from "./Staff";
 import Contact from "./Contact";
 import About from "./About";
@@ -21,8 +21,8 @@ function App() {
               <Home />
             </Route>
 
-            <Route path="/sample">
-              <Sample />
+            <Route path="/gallery">
+              <Gallery />
             </Route>
 
             <Route path="/staff">

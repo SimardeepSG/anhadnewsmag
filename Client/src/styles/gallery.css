@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Tenor Sans');
+
+.gallery-bg{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Tenor Sans; 
+    background-color: #bada78;
+  }
+
+
+.topnav a {
+    float: right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    color:black;
+    position: relative;
+    padding: 10px;
+    margin-bottom: auto;
+   font-weight: bolder;
+   font-family: Tenor Sans;
+  }
+  
+  .topnav a:hover {
+    font-size: 14.5px;
+  }
+
+
+  .left-div{
+      float: left;
+      width: 600px;
+      margin-top: 50px;
+      margin-left: 40px;
+  }
+
+.title{
+    padding: 10px;
+    width: 400px;
+}
+  
+  .subtext{
+      margin:30px;
+      padding: 10px;
+      width: 400px;
+      font-size: larger;
+      text-align: left;
+  }
+
+  .submit-button{
+    font-size: 25px;
+    color: yellow;
+    margin-left: 60px;
+    width: 300px;
+    border-radius: 40%;
+  }
+
+  .submit-button hover{
+      color:black;
+      text-decoration: dotted;
+  }
+
+  .small-text{
+    font-size: 19px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-left: 30px;
+}
+   
+.Time-Edition{
+  float: right;
+}
+/* body {
+  display: grid;
+  padding: 2rem;
+  grid-template-columns: 300px 1fr;
+  gap: 1rem;
+  align-items: center;
+  max-width: 800px;
+  margin: 0 auto;
+  font: 500 100%/1.5 system-ui;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+@media (max-width: 650px) {
+  body {
+    display: block;
+    font-size: 80%;
+  }
+  p {
+    position: relative;
+    margin: -3rem 0 2rem 1rem;
+    padding: 1rem;
+    background: rgba(white, 0.8);
+  }
+} */
