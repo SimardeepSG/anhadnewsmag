@@ -1,0 +1,47 @@
+.preorderbody{
+    background-color: #ffec5b;
+    font: "Tenor Sans";
+}
+
+html { overflow-y: scroll; }
+body { position: absolute; }
+
+h1{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.faq {
+    margin-left: 30px;
+    text-align: left;
+    width: 54%;
+}
+
+.boxes{
+    margin-left: 60%; 
+    float: right;
+    margin-right: 10px;
+    background: pink;
+    text-align: center;
+}
+
+.box1 {
+    border: 1px solid;
+    
+    box-shadow: rgb(black) 0px 20px 30px -10px;
+  }
+  
+  .box2 {
+    
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+  }
+  
+  .box3 {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px grey;
+  }

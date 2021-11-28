@@ -7,6 +7,7 @@ import Contact from "./Contact";
 import About from "./About";
 import Donate from "./Donate";
 import Footer from "./Footer";
+import Preorder from "./Preorder";
 
 function App() {
   return (
@@ -27,6 +28,10 @@ function App() {
 
             <Route path="/staff">
               <Staff />
+            </Route>
+
+            <Route path="/Preorder">
+              <Preorder />
             </Route>
 
             <Route path="/about">
