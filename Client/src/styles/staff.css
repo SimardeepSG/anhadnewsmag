@@ -6,17 +6,13 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Tenor Sans; 
-    /* overflow-y: scroll;
-    position:absolute; */
   }
 
-  /* html { overflow-y: scroll; }
-body { position: absolute; } */
+  html { overflow-y: scroll; }
+body { position: absolute; }
 
 .bg{
     background-color: #ffc2b6;
-    overflow-y: scroll;
-    position:absolute;
 
 }
 
@@ -45,7 +41,6 @@ body { position: absolute; } */
   }
   
   .wrapper h1{
-    font-family: Tenor Sans; /* not being applied*/
     font-size: 46px;
     margin-top: 10px;
     text-align: center;

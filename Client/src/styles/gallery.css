@@ -30,7 +30,7 @@
 
   .left-div{
       float: left;
-      width: 600px;
+      width: 50%;
       margin-top: 50px;
       margin-left: 40px;
   }
@@ -69,6 +69,7 @@
 }
    
 .Time-Edition{
+  width: 30%;
   float: right;
 }
 /* body {

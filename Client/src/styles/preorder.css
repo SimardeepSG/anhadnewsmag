@@ -8,40 +8,58 @@ body { position: absolute; }
 
 h1{
     text-align: center;
-    font-size: 30px;
-    margin-top: 30px;
-    margin-bottom: 15px;
+    font-size: 35px;
+    margin-top: 20px;
+    
 }
 
 .faq {
-    margin-left: 30px;
-    text-align: left;
-    width: 54%;
-}
+    margin-left: 60px;
+    text-align: justify;
+    width: 63%;
+    float: left;
+} 
 
 .boxes{
-    margin-left: 60%; 
+    width: 30%; 
     float: right;
-    margin-right: 10px;
-    background: pink;
+    /* margin-right: 30px;
+    margin-left: 0%; */
+    /* background: pink; */
     text-align: center;
+    color: black;
 }
 
-.box1 {
-    border: 1px solid;
-    
-    box-shadow: rgb(black) 0px 20px 30px -10px;
+.box1 {    
+    color: black;
+    background: white;
+    height: 80px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8;
   }
-  
+
+  .boxes p{
+    margin: 20px 0px 10px 0px;
+    line-height: 25px;
+    font-weight: 1000;
+  }
+ 
   .box2 {
-    
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: rgba(240, 46, 170, 0.4) -5px 5px, rgba(240, 46, 170, 0.3) -10px 10px, rgba(240, 46, 170, 0.2) -15px 15px, rgba(240, 46, 170, 0.1) -20px 20px, rgba(240, 46, 170, 0.05) -25px 25px;
+    background: white;
+    height: 100px;
+    width: 280px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8; 
   }
-  
+
   .box3 {
-    border: 1px solid;
-    padding: 10px;
-    box-shadow: 5px 10px grey;
+    background: white;
+    height: 100px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8;
   }

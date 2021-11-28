@@ -15,7 +15,8 @@ const Preorder = () => {
         </div>
 
         <h1> PRE-ORDER THE TIME EDITION</h1>
-        
+        <br  /> 
+
         <div className="faq"> 
         <div className="text"> 
         <text> Frequently Asked Questions:
@@ -44,17 +45,19 @@ const Preorder = () => {
         </div>
         </div>
         
+        {/* To add links to these boxes */}
         <div className="boxes"> 
         <div className="box1">
-        <p>PRE-ORDER FROM FOR INDIVIDUALS</p>
+        
+        <p>PRE-ORDER FORM FOR INDIVIDUALS</p>
         </div>
-
+        
 
         <div className="box2">
-        <p>PRE-ORDER FORM FO DISTRIBUTION(ORGANISATIONS/GURDWARAS)</p>
+        <p>PRE-ORDER FORM FOR DISTRIBUTION (ORGANISATIONS/GURDWARAS)</p>
         </div>
 
-
+        
         <div className="box3">
         <p>PRE-ORDER FORM FOR SIKH ACTIVISTS, CREATORS AND SCHOLARS</p>
 

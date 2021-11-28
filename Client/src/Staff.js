@@ -1,9 +1,9 @@
 import "./styles/staff.css";
-import ScriptTag from 'react-script-tag';
+// import ScriptTag from 'react-script-tag';
 
 const Staff = () => {
      
-        <ScriptTag type="text/javascript" src="Client\src\owl.js" />
+        // <ScriptTag type="text/javascript" src="Client\src\owl.js" />
     
     return ( 
         <div className="bg">
