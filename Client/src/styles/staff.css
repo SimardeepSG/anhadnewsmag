@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+ @import url('https://fonts.googleapis.com/css?family=Tenor Sans');
+
+ *{
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     font-family: Tenor Sans; 
+   }
+
+ .bg{
+     background-color: #ffc2b6;
+
+ }
+
+   .wrapper{
+     margin-top: 20px;
+   }
+
+   .wrapper h1{
+     font-size: 46px;
+     margin-top: 10px;
+     text-align: center;
+     margin-bottom: 30px;
+ }
+
+   .team{
+     display: flex;
+     justify-content: center;
+     width: auto;
+     text-align: center;
+     flex-wrap: wrap;
+   }
+
+   .team .team_member{
+     background: #fff; 
+     margin: 5px;
+     margin-bottom: 50px;
+     width: 300px;
+     height: 350px;
+     padding: 20px;
+     line-height: 26px;
+     color: #8e8b8b;  
+     position: relative;
+     border-radius: 10%;
+   }
+
+   .team .team_member h3{
+     color: #989c82;
+     font-size: 38px;
+     margin-top: 95px;
+   }
+
+   .team .team_member p.role{
+     color: #ccc;
+     margin: 12px 0;
+     font-size: 16.5px;
+     text-transform: uppercase;
+     font-weight: bolder;
+   }
+
+   /* This is respnsible for image and it needs to be fixed */
+   .team .team_member .team_img{
+     position: absolute;
+     top: 0px;
+     left: 50%;
+     transform: translateX(-50%);
+     width: 100px;
+     height: 100px;
+     border-radius: 50%;
+     background: #fff;
+
+   }
+
+   .team .team_member .team_img img{
+     width: 100px;
+     height: 100px;
+     padding: 5px;
+   }
+
+   .owl-controls {
+     margin-top: 20px;
+   }
+
+   .owl-pagination {
+     display: flex;
+     justify-content: center;
+   }
+
+   .owl-page {
+     height: 10px;
+     width: 40px;
+     background-color: rgba(255, 255, 255, 0.2);
+     border-radius: 10%;
+   }
+
+   .owl-page:hover,
+   .owl-page.active {
+     background-color: rgba(255, 255, 255, 0.3);
+   }
+
+   .owl-page:not(first-item) {
+     margin-left: 10px;
+   }

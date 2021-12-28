@@ -1,11 +1,35 @@
+import "./styles/staff.css";
+// import ScriptTag from 'react-script-tag';
+
 const Staff = () => {
-    return ( 
-        <div className="staff-info">
-            <h2> 
-                Our staff :-
-            </h2>
+  // <ScriptTag type="text/javascript" src="Client\src\owl.js" />
+
+  return (
+    <div className="bg">
+      <div id="testimonial-slider" class="owl-carousel">
+        <div className="wrapper">
+          <h1> Anhad Staff </h1>
+          <div className="team">
+            <div className="team_member">
+              <div className="team_img">
+                <img
+                  src="https://i.imgur.com/2pGPLrl.png"
+                  alt="Team_image"
+                ></img>
+              </div>
+              <h3>Paul Doe</h3>
+              <p className="role">UI developer</p>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
+                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
+                nulla harum nemo distinctio quam blanditiis dignissimos.
+              </p>
+            </div>
+          </div>
         </div>
-     );
-}
- 
+      </div>
+    </div>
+  );
+};
+
 export default Staff;

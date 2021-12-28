@@ -17,6 +17,7 @@
   .navbar .links {
     margin-left: auto;
     float: right;
+    flex-wrap: nowrap;
     margin-top: 3px;
     align-content: center;
     align-items: center;

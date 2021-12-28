@@ -7,6 +7,8 @@ import Contact from "./Contact";
 import About from "./About";
 import Donate from "./Donate";
 import Footer from "./Footer";
+import Gallery from "./Gallery";
+import Preorder from "./Preorder";
 
 function App() {
   return (
@@ -39,6 +41,14 @@ function App() {
 
             <Route path="/Donate">
               <Donate />
+            </Route>
+
+            <Route path="/Gallery">
+              <Gallery />
+            </Route>
+
+            <Route path="/preorder">
+              <Preorder />
             </Route>
 
             <Route path="/Subscribe"></Route>
