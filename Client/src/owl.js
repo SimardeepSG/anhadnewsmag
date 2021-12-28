@@ -13,7 +13,6 @@ $(document).ready(function () {
 
 // const owl = () => {
 //     const func = () => {
-
 //             ("#testimonial-slider").owlCarousel({
 //               items: 3,
 //             //   itemsDesktop:[1000,3],

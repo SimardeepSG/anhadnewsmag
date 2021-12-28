@@ -1,63 +1,66 @@
 .preorderbody{
-     background-color: #ffec5b;
-     font: "Tenor Sans";
- }
+    background-color: #ffec5b;
+    font: "Tenor Sans";
+    height: 100vh;    
+    overflow: scroll;
+}
 
 
- h1{
-     text-align: center;
-     font-size: 35px;
-     margin-top: 20px;
 
- }
+h1{
+    text-align: center;
+    font-size: 35px;
+    margin-top: 20px;
+    
+}
 
- .faq {
-     margin-left: 60px;
-     text-align: justify;
-     width: 63%;
-     float: left;
- } 
+.faq {
+    margin-left: 60px;
+    text-align: justify;
+    width: 63%;
+    float: left;
+} 
 
- .boxes{
-     width: 30%; 
-     float: right;
-     /* margin-right: 30px;
-     margin-left: 0%; */
-     /* background: pink; */
-     text-align: center;
-     color: black;
- }
+.boxes{
+    width: 30%; 
+    float: right;
+    /* margin-right: 30px;
+    margin-left: 0%; */
+    /* background: pink; */
+    text-align: center;
+    color: black;
+}
 
- .box1 {    
-     color: black;
-     background: white;
-     height: 80px;
-     width: 230px;
-     margin-top: 60px;
-     margin-left: 15%;
-     box-shadow: -20px -20px #c3cad8;
-   }
+.box1 {    
+    color: black;
+    background: white;
+    height: 80px;
+    width: 230px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8;
+  }
 
-   .boxes p{
-     margin: 20px 0px 10px 0px;
-     line-height: 25px;
-     font-weight: 1000;
-   }
+  .boxes p{
+    margin: 20px 0px 10px 0px;
+    line-height: 25px;
+    font-weight: 1000;
+  }
+ 
+  .box2 {
+    background: white;
+    height: 100px;
+    width: 280px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8; 
+  }
 
-   .box2 {
-     background: white;
-     height: 100px;
-     width: 280px;
-     margin-top: 60px;
-     margin-left: 15%;
-     box-shadow: -20px -20px #c3cad8; 
-   }
-
-   .box3 {
-     background: white;
-     height: 100px;
-     width: 250px;
-     margin-top: 60px;
-     margin-left: 15%;
-     box-shadow: -20px -20px #c3cad8;
-   }
+  .box3 {
+    background: white;
+    height: 100px;
+    width: 250px;
+    margin-top: 60px;
+    margin-left: 15%;
+    box-shadow: -20px -20px #c3cad8;
+  }

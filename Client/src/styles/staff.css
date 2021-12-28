@@ -1,12 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
- @import url('https://fonts.googleapis.com/css?family=Tenor Sans');
+@import url('https://fonts.googleapis.com/css?family=Tenor Sans');
 
- *{
-     margin: 0;
-     padding: 0;
-     box-sizing: border-box;
-     font-family: Tenor Sans; 
-   }
+
 
  .bg{
      background-color: #ffc2b6;
@@ -15,6 +10,10 @@
 
    .wrapper{
      margin-top: 20px;
+     overflow: scroll;
+     height: 90vh;
+     margin-top: 0px;
+     /* need height and overflow property for scrolling, especially heigth below or at 100vh */
    }
 
    .wrapper h1{
@@ -22,6 +21,7 @@
      margin-top: 10px;
      text-align: center;
      margin-bottom: 30px;
+
  }
 
    .team{
@@ -31,6 +31,8 @@
      text-align: center;
      flex-wrap: wrap;
    }
+
+  
 
    .team .team_member{
      background: #fff; 
@@ -78,27 +80,3 @@
      padding: 5px;
    }
 
-   .owl-controls {
-     margin-top: 20px;
-   }
-
-   .owl-pagination {
-     display: flex;
-     justify-content: center;
-   }
-
-   .owl-page {
-     height: 10px;
-     width: 40px;
-     background-color: rgba(255, 255, 255, 0.2);
-     border-radius: 10%;
-   }
-
-   .owl-page:hover,
-   .owl-page.active {
-     background-color: rgba(255, 255, 255, 0.3);
-   }
-
-   .owl-page:not(first-item) {
-     margin-left: 10px;
-   }

@@ -2,7 +2,7 @@ import "./styles/preorder.css";
 
 const Preorder = () => {
   return (
-    <div>
+    <div className="preorderbody">
       <h1> PRE-ORDER THE TIME EDITION</h1>
       <br />
 

@@ -4,11 +4,11 @@ const Gallery = () => {
   return (
     <div className="gallery-bg">
       {/* <ul>
-          <li><span>home</span></li>
-          <li><span>products</span></li>
-          <li><span>services</span></li>
-          <li><span>contact</span></li>
-         </ul> */}
+         <li><span>home</span></li>
+         <li><span>products</span></li>
+         <li><span>services</span></li>
+         <li><span>contact</span></li>
+        </ul> */}
 
       <div className="left-div">
         <div className="title">

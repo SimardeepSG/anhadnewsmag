@@ -40,15 +40,15 @@ html {
   }
 }
 
-
-/* 2 CLICK ME BUTTONS ON HOMEPAGE*/
+/* 
+2 buttons 'click me' on homepage
 .b-homepage{
   background-color: #FBACCC;
   color: #070D59;
   font-size: 18px;
 }
 
-/* 4 extra buttons on Sample Page - Just trying out css */
+/* 4 extra buttons on Sample Page - Just trying out css 
 ul {
   padding: 0;
   list-style-type: none;
@@ -95,7 +95,7 @@ li span {
   top: -10%;
   box-sizing: border-box;
   border: 0.08em solid;
-  /*background-color: #333;*/
+  /*background-color: #333;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -107,7 +107,7 @@ li span {
 
 li:hover span {
   transform: translateX(0.15em);
-}
+} */
 
 
 /* for the mailing page */
