@@ -1,0 +1,209 @@
+@font-face {
+  font-family: 'Prabhki';
+  src: local('Prabhki.ttf'), url(../../src/fonts/Prabhki.ttf) format('truetype');
+}
+
+/* for flex stuff: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 90vh;
+    flex-wrap: nowrap;
+    white-space: none;
+    background: #ffec5b;
+    padding: 2%
+
+}
+
+.left {
+    order: 1;
+    padding-right: 5vw;
+    padding-left: 1vw;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    row-gap: 10vh;
+}
+.right {
+    order: 3;
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    padding-right: 10vw;
+    padding-left: 1vw;
+    row-gap: 10vh;
+
+
+}
+.middle {
+    order: 2;
+    background-color: #ffc2b6;
+    height: 65vh;
+    border-radius: 15px;
+    padding: 15px;
+}
+
+.middle2 {
+  background-color: rgb(212, 189, 53);
+  border-radius: 15px;
+ 
+}
+
+.middle p {
+  font-family: "Prabhki";
+  text-align: center;
+  height: 9vh;
+  padding-top: 3vw;
+  background-color: #ffec5b;
+  font-size: 6vw;
+  padding-bottom: 5vh;
+  border-radius: 15px;
+  }
+
+.middle div iframe {
+  height: 40vh;
+  width:  40vw;
+
+}
+
+.box1, .box3 {
+    order: 1;
+}
+
+.box2, .box4 {
+    order: 2;
+}
+
+.form1, .form2, .form3, .form4 {
+  order:1;
+}
+
+  .boxes p{
+    margin: 20px 10px 20px 15px;
+    line-height: 25px;
+    font-weight: 1000;
+    align-self: center;
+    justify-content: center;
+  }
+  
+
+
+  .box1, .box2, .box3, .box4 {
+    background: white;
+    height: 9vw;
+    width: 19.2vw;
+    margin-top: 3vw;
+    margin-left: 15%;
+    border-radius: 30px;
+    box-shadow: -20px -20px #bada78; 
+    text-align: center;
+    transition:  .3s ease-in-out;
+    font-size: 1.2vw;
+
+
+  }
+
+  .box1 p, .box2 p, .box3 p, .box4 p {
+    overflow-wrap: break-word;
+    inline-size: 17.5vw;
+    align-self: center;
+    justify-content: center;
+    padding-right: 0px;
+
+  }
+
+
+  .box1:hover, .box2:hover, .box3:hover, .box4:hover {
+    background: rgb(247, 242, 218);
+  }
+
+  .titleforpreorder {
+    text-align: center;
+    background-color: #ffec5b;
+    padding: 1.5%;
+  }
+
+  .titleforpreorder p {
+    font-size: 3vw;
+    font-weight: bold;
+    font-family: Argent;
+
+  }
+
+  @media (max-width: 1110px) {
+    .box1, .box2, .box3, .box4 {
+      background: white;
+      height: 18vw;
+      width: 16vw;
+      margin-top: 3vw;
+      margin-left: 15%;
+      border-radius: 30px;
+      box-shadow: -20px -20px #bada78; 
+      text-align: center;
+      transition:  .3s ease-in-out;
+      font-size: 1.2vw;
+  
+  
+    }
+
+    .box1 p, .box2 p, .box3 p, .box4 p {
+      overflow-wrap: break-word;
+      inline-size: 13.5vw;
+      align-self: center;
+      justify-content: center;
+      padding-right: 0px;
+  
+    }
+
+    .middle p {
+      font-family: "Prabhki";
+      text-align: center;
+      height: 4vh;
+      padding-top: 3vw;
+      background-color: #ffec5b;
+      font-size: 6vw;
+      padding-bottom: 5vh;
+      }
+
+  }
+
+  @media (max-width: 700px) {
+    .box1, .box2, .box3, .box4 {
+      background: white;
+      height: 20vw;
+      width: 19.2vw;
+      margin-top: 60px;
+      margin-left: 15%;
+      border-radius: 30px;
+      box-shadow: -20px -20px #bada78; 
+      text-align: center;
+      transition:  .3s ease-in-out;
+      font-size: 1.2vw;
+  
+  
+    }
+
+    .box1 p, .box2 p, .box3 p, .box4 p {
+      overflow-wrap: break-word;
+      inline-size: 13.5vw;
+      align-self: center;
+      justify-content: center;
+      padding-right: 0px;
+  
+    }
+
+    .middle p {
+      font-family: "Prabhki";
+      text-align: center;
+      height: 1vh;
+      padding-top: 3vw;
+      background-color: #ffec5b;
+      font-size: 6vw;
+      padding-bottom: 5vh;
+      }
+
+  }
+

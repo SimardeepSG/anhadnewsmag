@@ -1,4 +1,5 @@
 import "./styles/preorder.css";
+import Varrow from "./Varrow";
 
 const Preorder = () => {
   return (
@@ -8,7 +9,7 @@ const Preorder = () => {
 
       <div className="faq">
         <div className="text">
-          <text>
+          <div>
             {" "}
             Frequently Asked Questions:
             <br />
@@ -51,23 +52,26 @@ const Preorder = () => {
             <br />
             Check out the Donate tab on our website on the top right. BTW, we do
             have a venmo!
-          </text>
+          </div>
         </div>
       </div>
 
       {/* To add links to these boxes */}
-      <div className="boxes">
-        <div className="box1">
+      <div className="pboxes">
+        <div className="pbox1">
           <p>PRE-ORDER FORM FOR INDIVIDUALS</p>
         </div>
 
-        <div className="box2">
+        <div className="pbox2">
           <p>PRE-ORDER FORM FOR DISTRIBUTION (ORGANISATIONS/GURDWARAS)</p>
         </div>
 
-        <div className="box3">
+        <div className="pbox3">
           <p>PRE-ORDER FORM FOR SIKH ACTIVISTS, CREATORS AND SCHOLARS</p>
         </div>
+      </div>
+      <div className="Arrow">
+        <Varrow newpage="/Preorder2"></Varrow>
       </div>
     </div>
   );

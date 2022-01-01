@@ -5,7 +5,8 @@
   height: 1.5rem; 
   text-align: center;
   background-color: var(--white);
-  padding-top: 10px;
+  padding-top: 11px;
   padding-bottom: 15px;
+  border-color: red;
   }
 

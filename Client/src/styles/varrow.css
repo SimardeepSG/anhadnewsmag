@@ -1,6 +1,5 @@
 .arrow {
     font-size: 6.5vh;
-    color: #bb9770;
     text-align: center;
     
 }
@@ -13,7 +12,6 @@
 }
 
 .arrowDiv {
-    background-color: #e4c1a1;
 }
 
 .arrowDiv:hover {

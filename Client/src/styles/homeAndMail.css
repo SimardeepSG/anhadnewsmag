@@ -1,3 +1,8 @@
+@font-face {
+  font-family: 'Prabhki';
+  src: local('Prabhki.ttf'), url(../../src/fonts/Prabhki.ttf) format('truetype');
+}
+
 .home {
     overflow: scroll;
   }
@@ -44,7 +49,7 @@
   .home-page-div h1{
     font-size: 16.39vw;
     color: black;
-    font-family: "Prabhki";
+    font-family: Prabhki;
     display: grid;
     justify-content: center;
     align-items: center;

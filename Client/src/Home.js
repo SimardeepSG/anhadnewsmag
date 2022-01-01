@@ -31,7 +31,7 @@ class Home extends Component {
         <body className="bodyofmail">
           <div className="home-page-div">
             <h2> Anhad Magazine</h2>
-            <h1>Anhad</h1>
+            <h1>Anhd</h1>
             <p>A student-run sikh sprint and multimedia magazine</p>
             <p>
               inspiring a new wave of sikh literacy and connectedness to our
@@ -43,7 +43,7 @@ class Home extends Component {
               buttonText={subscribe.buttonText}
             ></Subscribe>
           </div>
-          <div class="Arrow">
+          <div className="Arrow">
             <Varrow></Varrow>
           </div>
         </body>

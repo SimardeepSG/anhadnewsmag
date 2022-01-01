@@ -8,6 +8,7 @@ import About from "./About";
 import Donate from "./Donate";
 import Footer from "./Footer";
 import Preorder from "./Preorder";
+import Preorder2 from "./Preorder2";
 
 function App() {
   return (
@@ -57,6 +58,10 @@ function App() {
             <Route path="/Subscribe"></Route>
 
             <Route path="/MailingForm"></Route>
+
+            <Route path="/Preorder2">
+              <Preorder2 />
+            </Route>
           </Switch>
         </div>
       </div>
