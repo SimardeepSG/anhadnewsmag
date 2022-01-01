@@ -1,0 +1,83 @@
+ul {
+    list-style-position: inside;
+ }
+
+ .aboutmainbody h1 {
+
+     transform: translate(-100px, -30px);
+     overflow: visible;
+ }
+
+ .aboutmainbody .aboutcolumn1 h1 {
+    transform: translate(-125px, -30px);
+    overflow: visible;
+}
+
+ .aboutmainbody div {
+     overflow: visible;
+     padding: 10px;
+ }
+
+ .aboutmainbody {
+     padding-top: 3vw;
+     overflow: visible;
+ }
+.abouttitle {
+    background-color: #ffec5b;
+    text-align: center;
+    font-size: 7vw;
+
+
+}
+ .aboutmainbody{
+    display: flex;
+    flex-direction: row;
+    background-color: #ffec5b;
+    column-gap: 10px;
+    flex-grow: 1;
+    flex-basis: 150px;
+    justify-content: space-evenly;
+    height: 100vw;
+    z-index: 1;
+ }
+
+ .aboutcolumn1, .aboutcolumn2, .aboutcolumn3 {
+     display: flex;
+     flex-direction: column; 
+     justify-content: flex-start;
+     row-gap: 10px;
+     flex: 1 1 0;
+     flex-grow: 1;
+    text-align: center;
+     
+
+
+ }
+
+ .aboutmission, .aboutidentity, .aboutemail {
+     order: 1;
+ }
+
+ .aboutvision, .aboutschedulecall {
+     order: 2;
+ }
+
+ .aboutstatus {
+     order: 3;
+ }
+
+ .aboutmission, .aboutschedulecall {
+     background-color: #bada78;
+ }
+
+ .aboutvision, .aboutemail {
+     background-color: #fdca85;
+ }
+
+ .aboutidentity {
+     background-color: #c3cad8;
+ }
+
+ .aboutstatus {
+     background-color: #ffc2b6;
+ }
