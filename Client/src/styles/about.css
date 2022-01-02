@@ -4,28 +4,24 @@ ul {
 
  .aboutmainbody h1 {
 
-     transform: translate(-100px, -30px);
      overflow: visible;
+     text-align: left;
+     font-family: "Argent";
+     font-size: 3vw;
+
  }
 
- .aboutmainbody .aboutcolumn1 h1 {
-    transform: translate(-125px, -30px);
+ .aboutmainbody .aboutcolumn1 h1,  .aboutmainbody div {
     overflow: visible;
 }
 
- .aboutmainbody div {
-     overflow: visible;
-     padding: 10px;
- }
 
- .aboutmainbody {
-     padding-top: 3vw;
-     overflow: visible;
- }
 .abouttitle {
     background-color: #ffec5b;
     text-align: center;
     font-size: 7vw;
+    font-family: "Argent";
+
 
 
 }
@@ -39,6 +35,9 @@ ul {
     justify-content: space-evenly;
     height: 100vw;
     z-index: 1;
+    padding: 1vw;
+    overflow: visible;
+   font-family: "Argent";
  }
 
  .aboutcolumn1, .aboutcolumn2, .aboutcolumn3 {

@@ -4,7 +4,7 @@ import "./styles/about.css";
 const About = () => {
   return (
     <div className="aboutencompassingall">
-      <div className="abouttitle">About</div>
+      <div className="abouttitle">ABOUT</div>
       <div className="aboutmainbody">
         <div className="aboutcolumn1">
           <div className="aboutmission">

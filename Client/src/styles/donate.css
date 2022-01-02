@@ -1,0 +1,141 @@
+/* https://css-tricks.com/snippets/css/complete-guide-grid/ */
+
+
+.donateContainer {
+    
+    grid-gap: 5px;
+    grid-template-columns: 1fr;
+    width: auto;
+    height: 100vh;
+    grid-template-rows: 10vw 10vw auto ;
+    background-color: #b6ccd7;
+    display: grid;
+
+    grid-template-areas: 
+    
+    "Title",
+    "Paragraph",
+    "bottomArea"
+}
+
+.donateTitle {
+    grid-area: "Title";
+    text-align: center;
+    padding-top: 3vw;
+    font-size: 5vw;
+    font-family: Argent;
+    font-weight: bold;
+    padding-bottom: 0px;
+}
+
+.donateDescription {
+    grid-area: "Paragraph";
+    text-align: center;
+    font-size: 1.5vw;
+}
+
+.donateBottomTable {
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    width: auto;
+    height: 40vh;
+    margin-bottom: 300px;
+    grid-template-columns:auto auto;
+
+    grid-area: "bottomArea";
+    display: grid;
+    justify-content: space-evenly;
+ 
+
+    grid-template-areas: 
+    "column1",
+    "column2"
+}
+
+.donateCostMenu{
+    grid-area: "column1";
+    grid-gap: 20px;
+    grid-template-columns: 1fr;
+    width: auto;
+    height: 100%;
+    grid-template-rows: 5vw auto;
+
+
+    display: grid;
+    grid-template-areas: 
+    "row1title",
+    "row2description"
+
+}
+
+.donateColumn2{
+    grid-area: "column2";
+
+}
+
+.donateItemTitle {
+    grid-area: "row1title";
+    background-color: #ffec56;
+    border: 2px;
+    border-style: solid;
+    width: 11vw;
+    font-family: Argent;
+    text-align: center;
+    font-weight: bolder;
+    align-self: center;
+    padding: 10px;
+    font-size: 1.4vw;
+}
+
+
+.donateItemChart {
+    grid-gap: 20px;
+    grid-template-rows: 1fr;
+    width: auto;
+    height: auto;
+    grid-template-columns:40vw 15vw;
+    grid-area: "row2description";
+    background-color: #ffec56;
+    border: 2px;
+    border-style: solid;
+    display: grid;
+    grid-template-areas: 
+    "Item",
+    "Cost"
+
+}
+
+.donateItemItem {
+    grid-area: "Item";
+}
+
+.donateItemItem p, .donateItemCost p {
+    padding: 1vw;
+}
+
+.donateItemCost {
+    grid-area: "Cost";
+}
+
+.venmo {
+    background-color: #fdca85;
+}
+
+.dasvandh {
+    background-color: #ffc2b6;
+}
+
+
+
+.policy {
+    background-color: #bada78;
+}
+
+.venmo, .policy, .dasvandh {
+    border: 2px;
+    border-style: solid;
+    padding: 20px;
+    margin: 30px;
+    width: 15vw
+}
+
