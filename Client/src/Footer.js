@@ -24,7 +24,11 @@ const Footer = () => {
     } else if (location.pathname == "/contact") {
       setNavBg("yellow");
       setLinks("#bb9770");
-    } else if (location.pathname == "/donate") {
+    } 
+    else if (location.pathname == "/reviews") {
+      setNavBg("#76b9d6");
+      setLinks("#47acb6");
+    }else if (location.pathname == "/donate") {
       setNavBg("#b6ccd7");
       setLinks("#47acb6");
     }
