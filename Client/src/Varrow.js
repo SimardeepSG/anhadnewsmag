@@ -30,6 +30,10 @@ const Varrow = (pathgiven) => {
       setNavBg("yellow");
       setLinks("#bb9770");
     }
+    else if (location.pathname == "/reviews") {
+      setNavBg("#b6ccd7");
+      setLinks("#47acb6");
+    }
   }, [location]);
 
   const history = useHistory();

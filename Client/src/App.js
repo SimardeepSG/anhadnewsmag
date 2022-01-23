@@ -3,7 +3,8 @@ import Home from "./Home";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import Gallery from "./Gallery";
 import Staff from "./Staff";
-import Contact from "./Contact";
+import Reviews from "./Reviews";
+
 import About from "./About";
 import Donate from "./Donate";
 import Footer from "./Footer";
@@ -39,8 +40,8 @@ function App() {
               <About />
             </Route>
 
-            <Route path="/contact">
-              <Contact />
+            <Route path="/reviews">
+              <Reviews />
             </Route>
 
             <Route path="/Donate">

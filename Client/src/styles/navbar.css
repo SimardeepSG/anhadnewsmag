@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Tenor Sans');
+
+
+  /* font-family: 'Tenor-Sans'; */
+
+
 .NavbarAnhad {
   color: #bb9770;
   float: left;
 }
+
   .navbar a {
     text-decoration: none;
     color: #bb9770;
@@ -9,19 +16,22 @@
     padding: 10px;
     margin-bottom: auto;
     font-weight: bolder;
+    font-size: 19.5px;
+    margin:5px;
   }
 
 
 .navbar {
-  padding: 10px;
+  padding: 18px;
   margin: 0 auto;
   border: 1px solid #bb9770;
   /* background-color: #ffdab9; */
 }
+
   .navbar .links {
     float: right;
     flex-wrap: nowrap;
-    white-space: nowrap
+    white-space: nowrap;
     /* white space makes it so the navbar does not come down again */
   }
   
