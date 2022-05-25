@@ -28,10 +28,6 @@ const Navbar = () => {
       setNavBg("#b6ccd7");
       setLinks("#47acb6");
     }
-    else if (location.pathname == "/reviews") {
-      setNavBg("#b6ccd7");
-      setLinks("#47acb6");
-    }
   }, [location]);
 
   // https://stackoverflow.com/questions/68407719/change-navbar-background-color-on-other-routes-in-reactjs
@@ -73,6 +69,9 @@ const Navbar = () => {
         </a>
         <a href="/donate" style={{ color: navLinks }}>
           Donate
+        </a>
+        <a href="/Reviews2" style={{ color: navLinks }}>
+          Reviews2
         </a>
       </div>
     </nav>

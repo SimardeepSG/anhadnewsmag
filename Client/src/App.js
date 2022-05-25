@@ -10,6 +10,7 @@ import Donate from "./Donate";
 import Footer from "./Footer";
 import Preorder from "./Preorder";
 import Preorder2 from "./Preorder2";
+import Reviews2 from "./Reviews2";
 
 function App() {
   return (
@@ -62,6 +63,10 @@ function App() {
 
             <Route path="/Preorder2">
               <Preorder2 />
+            </Route>
+
+            <Route path="/Reviews2">
+              <Reviews2 />
             </Route>
           </Switch>
         </div>
