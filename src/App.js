@@ -25,47 +25,47 @@ function App() {
               <Home />
             </Route>
 
-            <Route path="/gallery">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/gallery">
               <Gallery />
             </Route>
 
-            <Route path="/staff">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/staff">
               <Staff />
             </Route>
 
-            <Route path="/Preorder">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Preorder">
               <Preorder />
             </Route>
 
-            <Route path="/about">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/about">
               <About />
             </Route>
 
-            <Route path="/reviews">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/reviews">
               <Reviews />
             </Route>
 
-            <Route path="/Donate">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Donate">
               <Donate />
             </Route>
 
-            <Route path="/Gallery">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Gallery">
               <Gallery />
             </Route>
 
-            <Route path="/preorder">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/preorder">
               <Preorder />
             </Route>
 
-            <Route path="/Subscribe"></Route>
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Subscribe"></Route>
 
-            <Route path="/MailingForm"></Route>
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/MailingForm"></Route>
 
-            <Route path="/Preorder2">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Preorder2">
               <Preorder2 />
             </Route>
 
-            <Route path="/Reviews2">
+            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Reviews2">
               <Reviews2 />
             </Route>
           </Switch>
