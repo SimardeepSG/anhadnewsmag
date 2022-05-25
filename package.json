@@ -16,10 +16,11 @@
   "bugs": {
     "url": "https://github.com/SimardeepSG/anhadnewsmag/issues"
   },
-  "homepage": "https://github.com/SimardeepSG/anhadnewsmag#readme",
+  "homepage": "https://github.com/SimardeepSG/anhadnewsmag.github.io",
   "dependencies": {
     "dotenv": "^10.0.0",
     "express": "^4.17.1",
+    "gh-pages": "^4.0.0",
     "react-owl-carousel": "^2.3.3",
     "react-scripts": "^4.0.3",
     "sib-api-v3-sdk": "^8.2.1"
