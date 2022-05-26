@@ -24,7 +24,7 @@
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "npm run build",
-    "build": "babel src -d lib",
+    "build": "react-scripts build",
     "test": "jest",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
