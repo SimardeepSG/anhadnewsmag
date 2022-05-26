@@ -1,4 +1,3 @@
-import Varrow from "./Varrow";
 import "./styles/about.css";
 
 const About = () => {
