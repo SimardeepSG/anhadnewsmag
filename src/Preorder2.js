@@ -12,29 +12,29 @@ class Preorder2 extends React.Component {
   render() {
     var Handlechange = (e) => {
       console.log(e);
-      if (e == 1) {
+      if (e === 1) {
         console.log("hello");
         this.setState({ form1: !this.state.form1 });
-        this.setState({ form2: (this.state.form2 = false) });
-        this.setState({ form3: (this.state.form3 = false) });
-        this.setState({ form4: (this.state.form4 = false) });
+        this.setState({ form2: (this.form2 = false) });
+        this.setState({ form3: (this.form3 = false) });
+        this.setState({ form4: (this.form4 = false) });
         console.log(this.state.form1);
         console.log(this.state.f1);
-      } else if (e == 2) {
+      } else if (e === 2) {
         this.setState({ form2: !this.state.form2 });
-        this.setState({ form1: (this.state.form1 = false) });
-        this.setState({ form3: (this.state.form3 = false) });
-        this.setState({ form4: (this.state.form4 = false) });
-      } else if (e == 3) {
+        this.setState({ form1: (this.form1 = false) });
+        this.setState({ form3: (this.form3 = false) });
+        this.setState({ form4: (this.form4 = false) });
+      } else if (e === 3) {
         this.setState({ form3: !this.state.form3 });
-        this.setState({ form2: (this.state.form2 = false) });
-        this.setState({ form1: (this.state.form1 = false) });
-        this.setState({ form4: (this.state.form4 = false) });
-      } else if (e == 4) {
+        this.setState({ form2: (this.form2 = false) });
+        this.setState({ form1: (this.form1 = false) });
+        this.setState({ form4: (this.form4 = false) });
+      } else if (e === 4) {
         this.setState({ form4: !this.state.form4 });
-        this.setState({ form2: (this.state.form2 = false) });
-        this.setState({ form3: (this.state.form3 = false) });
-        this.setState({ form1: (this.state.form1 = false) });
+        this.setState({ form2: (this.form2 = false) });
+        this.setState({ form3: (this.form3 = false) });
+        this.setState({ form1: (this.form1 = false) });
       }
     };
 

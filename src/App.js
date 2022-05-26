@@ -25,47 +25,47 @@ function App() {
               <Home />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/gallery">
+            <Route path="/gallery">
               <Gallery />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/staff">
+            <Route path="/staff">
               <Staff />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Preorder">
+            <Route path="/Preorder">
               <Preorder />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/about">
+            <Route path="/about">
               <About />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/reviews">
+            <Route path="/reviews">
               <Reviews />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Donate">
+            <Route path="/Donate">
               <Donate />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Gallery">
+            <Route path="/Gallery">
               <Gallery />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/preorder">
+            <Route path="/preorder">
               <Preorder />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Subscribe"></Route>
+            <Route path="/Subscribe"></Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/MailingForm"></Route>
+            <Route path="/MailingForm"></Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Preorder2">
+            <Route path="/Preorder2">
               <Preorder2 />
             </Route>
 
-            <Route path="https://simardeepsg.github.io/anhadnewsmag.github.io/Reviews2">
+            <Route path="/Reviews2">
               <Reviews2 />
             </Route>
           </Switch>

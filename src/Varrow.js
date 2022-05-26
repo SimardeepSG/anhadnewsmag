@@ -11,26 +11,25 @@ const Varrow = (pathgiven) => {
   const [navLinks, setLinks] = React.useState("#bb9770");
 
   useEffect(() => {
-    if (location.pathname == "/Gallery") {
+    if (location.pathname === "/Gallery") {
       setNavBg("#bada78");
       setLinks("#00a32a");
-    } else if (location.pathname == "/Preorder") {
+    } else if (location.pathname === "/Preorder") {
       setNavBg("#ffec5b");
       setLinks("#a96f2a");
-    } else if (location.pathname == "/staff") {
+    } else if (location.pathname === "/staff") {
       setNavBg("#ffc2b6");
       setLinks("#f86368");
-    } else if (location.pathname == "/about") {
+    } else if (location.pathname === "/about") {
       setNavBg("#ffdab9");
       setLinks("#bb9770");
-    } else if (location.pathname == "/contact") {
+    } else if (location.pathname === "/contact") {
       setNavBg("yellow");
       setLinks("#bb9770");
-    } else if (location.pathname == "/donate") {
+    } else if (location.pathname === "/donate") {
       setNavBg("yellow");
       setLinks("#bb9770");
-    }
-    else if (location.pathname == "/reviews") {
+    } else if (location.pathname === "/reviews") {
       setNavBg("#b6ccd7");
       setLinks("#47acb6");
     }
