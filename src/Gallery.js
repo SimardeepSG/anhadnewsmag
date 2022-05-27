@@ -31,7 +31,7 @@ const Gallery = () => {
       <div className="Time-Edition">
         <div className="item">
           <div className="item-img">
-            <img src="https://i.imgur.com/2pGPLrl.png"></img>
+            <img src="https://i.imgur.com/2pGPLrl.png" alt="My Awesome"></img>
             <div className="item-description">
               <p> Image sample text 1</p>
             </div>

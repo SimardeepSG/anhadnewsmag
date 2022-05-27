@@ -81,6 +81,7 @@ class Preorder2 extends React.Component {
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
+                    title="image"
                   >
                     Loading…
                   </iframe>
