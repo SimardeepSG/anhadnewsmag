@@ -1,0 +1,86 @@
+[
+    {
+        "id": 1,
+        "Name": "Jasmine Kaur",
+        "Title": "Executive Director",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 2,
+        "Name": "Simardeep Singh",
+        "Title": "Editor-in-Chief",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 3,
+        "Name": "Jessica Singh",
+        "Title": "Director of Editorial",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 4,
+        "Name": "Parveen Kaur",
+        "Title": "Director of Outreach",
+        "Location": "Colorado",
+        "Description": "Description"
+    },
+    {
+        "id": 5,
+        "Name": "Ameek Kaur",
+        "Title": "Director of Media",
+        "Location": "New Jersey",
+        "Description": "Description"
+    },
+    {
+        "id": 6,
+        "Name": "Mukul Singh",
+        "Title": "Director of Layout",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 7,
+        "Name": "Inderpreet Kaur",
+        "Title": "Staff Artist",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 8,
+        "Name": "Jas Kaur ",
+        "Title": "Staff Artist",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 9,
+        "Name": "Simran Kaur",
+        "Title": "Supporting Editor",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 10,
+        "Name": "Simrit Kaur",
+        "Title": "Supporting Staff",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 11,
+        "Name": "Saihaj Singh",
+        "Title": "Supporting Staff",
+        "Location": "California",
+        "Description": "Description"
+    },
+    {
+        "id": 12,
+        "Name": "Gurdeep Singh",
+        "Title": "Supporting Staff",
+        "Location": "Maryland",
+        "Description": "Description"
+    }
+]

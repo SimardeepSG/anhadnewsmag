@@ -1,4 +1,5 @@
 import "./styles/staff.css";
+import PostData from "./data/posts.json"
 // import ScriptTag from 'react-script-tag';
 
 const Staff = () => {
@@ -6,183 +7,31 @@ const Staff = () => {
 
   return (
     <div className="bg">
-      <div id="testimonial-slider" class="owl-carousel">
+      <div id="testimonial-slider" className="owl-carousel">
         <div className="wrapper">
           <h1> Anhad Staff </h1>
           <div className="team">
-            <div className="team_member">
+{/* _____________________________________________ */}
+          { PostData.map((PostData, index) => {
+            return (
+              <div className="team_member">
               <div className="team_img">
                 <img
                   src="https://i.imgur.com/2pGPLrl.png"
                   alt="Team_image"
                 ></img>
               </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
+              <div key={PostData.id}> 
+                <h3>{PostData.Name}</h3>
+                <p>{PostData.Title}</p>
+                <p>{PostData.Location}</p>
+                <p>{PostData.Description}</p>
+              </div>
             </div>
+            )
+            }) }
+{/* _____________________________________________ */}
 
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2pGPLrl.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Paul Doe</h3>
-              <p className="role">UI developer</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/jQj1I8E.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Rosie Meg</h3>
-              <p className="role">Tester</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/jQj1I8E.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Rosie Meg</h3>
-              <p className="role">Tester</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
-
-            <div className="team_member">
-              <div className="team_img">
-                <img
-                  src="https://i.imgur.com/2Necikc.png"
-                  alt="Team_image"
-                ></img>
-              </div>
-              <h3>Alex Wood</h3>
-              <p className="role">Support Lead</p>
-              <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Est
-                quaerat tempora, voluptatum quas facere dolorum aut cumque nihil
-                nulla harum nemo distinctio quam blanditiis dignissimos.
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -191,3 +40,21 @@ const Staff = () => {
 };
 
 export default Staff;
+
+
+// {/* _____________________________________________ */}
+            {/* <div className="team_member">
+              <div className="team_img">
+                <img
+                  src="https://i.imgur.com/2pGPLrl.png"
+                  alt="Team_image"
+                ></img>
+              </div>
+              {PostData.map((postDetail, index)=>{
+              return <div>
+                <h3>{postDetail.Name}</h3>
+                <p>{postDetail.Title}</p>
+                <p>{postDetail.Description}</p>
+                </div>
+              })}
+            </div> */}
