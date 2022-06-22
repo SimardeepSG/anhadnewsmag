@@ -7,6 +7,7 @@
 .NavbarAnhad {
   color: #bb9770;
   float: left;
+  align-items: center;
 }
 
   .navbar a {
@@ -17,12 +18,13 @@
     margin-bottom: auto;
     font-weight: bolder;
     font-size: 19.5px;
-    margin:5px;
+    margin:2px;
   }
 
 
 .navbar {
-  padding: 18px;
+  padding: 8px;
+  padding-top: 18px;
   margin: 0 auto;
   border: 1px solid #bb9770;
   /* background-color: #ffdab9; */

@@ -1,12 +1,12 @@
 /* Remove browser defaults */
-* {
+/* * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
   }
    
   /* Style App.js wrapper */
-  .App {
+  /* .App {
     width: 100vw;
     height: 100vh;
     display: flex;
@@ -16,7 +16,7 @@
   }
    
   /* Tab Container */
-  .Tabs {
+  /* .Tabs {
     width: 80%;
     height: auto;
     min-height: 400px;
@@ -82,4 +82,4 @@
     display: block;
     font-size: 2rem;
     text-align: center;
-  }
+  } */ 

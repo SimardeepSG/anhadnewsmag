@@ -71,7 +71,10 @@ const Preorder = () => {
         </div>
       </div>
       <div className="Arrow">
-        <Varrow newpage="/Preorder2"></Varrow>
+        <Varrow
+          newpage="/Preorder2"
+          textdiv="Click to Access All Forms"
+        ></Varrow>
       </div>
     </div>
   );

@@ -10,7 +10,7 @@
   .home-page-div{
     overflow: scroll;
     height: 200vh;
-    margin-top: -5%;
+    margin-top: -8%;
   }
   .home-page-div::before {
     content: ' ';
@@ -20,7 +20,7 @@
     background-blend-mode: multiply;
     box-shadow: inset 0 0 0 100vw rgba(255, 218, 178, .5);
     background-size: 100% 80%;   
-    top: 0px;
+    top: -6px;
     right: -600px;
     bottom: 0px;
     left: 0px;

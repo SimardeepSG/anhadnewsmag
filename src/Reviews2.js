@@ -1,4 +1,4 @@
-import "./styles/reviews.css";
+import "./styles/Tabs.css";
 
 const Reviews2 = () => {
   return (

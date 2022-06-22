@@ -10,13 +10,14 @@ import Donate from "./Donate";
 import Footer from "./Footer";
 import Preorder from "./Preorder";
 import Preorder2 from "./Preorder2";
-import Reviews2 from "./Reviews2";
+import Tabs from "./Tabs";
 
 function App() {
   return (
     <Router>
       <div className="App">
         <Navbar />
+
         <div className="content">
           {/* removed  <h1>Anhad|ਅਨਹਦ </h1> from here */}
 
@@ -65,8 +66,8 @@ function App() {
               <Preorder2 />
             </Route>
 
-            <Route path="/Reviews2">
-              <Reviews2 />
+            <Route path="/Tabs">
+              <Tabs />
             </Route>
           </Switch>
         </div>

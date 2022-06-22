@@ -4,18 +4,21 @@
 }
 
 /* for flex stuff: https://css-tricks.com/snippets/css/a-guide-to-flexbox/#background */
+/* justify-content: longer word: horizontal alignment
+align-items: shorter word: vertical alignment
+ */
+
 
 .boxes {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     width: 100vw;
-    height: 90vh;
-    flex-wrap: nowrap;
+    height: 200vh;
     white-space: none;
     background: #ffec5b;
-    padding: 2%
-
+    padding: 2%;
+    overflow: scroll;
 }
 
 .left {
@@ -41,31 +44,26 @@
 .middle {
     order: 2;
     background-color: #ffc2b6;
-    height: 65vh;
+    height: 80vh;
     border-radius: 15px;
     padding: 15px;
+    justify-content: center;
+
 }
 
 .middle2 {
   background-color: rgb(212, 189, 53);
-  border-radius: 15px;
- 
+  border-radius: 5px;
+  justify-content: center;
+
+
+
+
 }
 
-.middle p {
-  font-family: "Prabhki";
-  text-align: center;
-  height: 9vh;
-  padding-top: 3vw;
-  background-color: #ffec5b;
-  font-size: 6vw;
-  padding-bottom: 5vh;
-  border-radius: 15px;
-  }
-
 .middle div iframe {
-  height: 40vh;
-  width:  40vw;
+  height: 100vh;
+  width:  50vw;
 
 }
 
@@ -79,6 +77,8 @@
 
 .form1, .form2, .form3, .form4 {
   order:1;
+  justify-content: center;
+
 }
 
   .boxes p{
@@ -94,21 +94,22 @@
   .box1, .box2, .box3, .box4 {
     background: white;
     height: 9vw;
-    width: 19.2vw;
+    width: 13vw;
     margin-top: 3vw;
     margin-left: 15%;
     border-radius: 30px;
     box-shadow: -20px -20px #bada78; 
     text-align: center;
+    align-self: center;
     transition:  .3s ease-in-out;
-    font-size: 1.2vw;
+    font-size: .8vw;
 
 
   }
 
   .box1 p, .box2 p, .box3 p, .box4 p {
     overflow-wrap: break-word;
-    inline-size: 17.5vw;
+    inline-size: 11vw;
     align-self: center;
     justify-content: center;
     padding-right: 0px;
@@ -123,11 +124,11 @@
   .titleforpreorder {
     text-align: center;
     background-color: #ffec5b;
-    padding: 1.5%;
+    padding-top: 1%;
   }
 
   .titleforpreorder p {
-    font-size: 3vw;
+    font-size: 1.5vw;
     font-weight: bold;
     font-family: Argent;
 
@@ -158,15 +159,7 @@
   
     }
 
-    .middle p {
-      font-family: "Prabhki";
-      text-align: center;
-      height: 4vh;
-      padding-top: 3vw;
-      background-color: #ffec5b;
-      font-size: 6vw;
-      padding-bottom: 5vh;
-      }
+
 
   }
 
@@ -195,15 +188,7 @@
   
     }
 
-    .middle p {
-      font-family: "Prabhki";
-      text-align: center;
-      height: 1vh;
-      padding-top: 3vw;
-      background-color: #ffec5b;
-      font-size: 6vw;
-      padding-bottom: 5vh;
-      }
+  
 
   }
 

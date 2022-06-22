@@ -3,6 +3,7 @@
     font: "Tenor Sans";
     height: 100vh;    
     overflow: scroll;
+
 }
 
 
@@ -19,6 +20,9 @@
     text-align: justify;
     width: 63%;
     float: left;
+    overflow: scroll;
+    height: 110vh;
+
 } 
 
 .pboxes{
@@ -74,4 +78,13 @@
     box-shadow: -20px -20px #c3cad8;
     transition: .3s ease-in-out;
 
+  }
+
+  .Arrow {
+    text-align: center;
+  }
+
+  .textdiv {
+    font-size: 1.5vw;
+    font: "Tenor Sans";
   }
