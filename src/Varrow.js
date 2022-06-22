@@ -5,6 +5,7 @@ import { useHistory } from "react-router-dom";
 
 const Varrow = (pathgiven) => {
   console.log(pathgiven);
+  console.log(pathgiven.textdiv);
   const location = useLocation();
 
   const [navBg, setNavBg] = React.useState("#ffdab9");
@@ -48,6 +49,7 @@ const Varrow = (pathgiven) => {
       onClick={routeChange}
       style={{ backgroundColor: navBg }}
     >
+      <div className="textdiv">{pathgiven.textdiv}</div>
       <div className="arrow" style={{ color: navLinks }}>
         ╲╱
       </div>

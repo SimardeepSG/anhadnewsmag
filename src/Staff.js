@@ -1,5 +1,6 @@
 import "./styles/staff.css";
 import PostData from "./data/posts.json";
+
 // import ScriptTag from 'react-script-tag';
 
 const Staff = () => {

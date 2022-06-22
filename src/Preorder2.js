@@ -44,7 +44,7 @@ class Preorder2 extends React.Component {
     const f4 = this.state.form4;
 
     return (
-      <div>
+      <div className="maindiv">
         <div className="titleforpreorder">
           <p> Pre-Order the Time Edition </p>
         </div>
@@ -73,11 +73,8 @@ class Preorder2 extends React.Component {
             <div className="form1">
               <div className="middle">
                 <div className="middle2">
-                  <p>Anhd</p>
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
-                    width="640"
-                    height="2423"
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
@@ -94,8 +91,24 @@ class Preorder2 extends React.Component {
             <div className="form2">
               <div className="middle">
                 <div className="middle2">
-                  <p>Anhd</p>
-                  <div>hello mate</div>
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
+<<<<<<< Updated upstream
+                    width="640"
+                    height="2423"
+=======
+>>>>>>> Stashed changes
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="image"
+<<<<<<< Updated upstream
+                  >
+                    Loading....
+                  </iframe>
+=======
+                  ></iframe>
+>>>>>>> Stashed changes
                 </div>
               </div>
             </div>
@@ -105,8 +118,24 @@ class Preorder2 extends React.Component {
             <div className="form3">
               <div className="middle">
                 <div className="middle2">
-                  <p>Anhd</p>
-                  <div>asdkjfkajsdb</div>
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
+<<<<<<< Updated upstream
+                    width="640"
+                    height="2423"
+=======
+>>>>>>> Stashed changes
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="image"
+<<<<<<< Updated upstream
+                  >
+                    Loading....
+                  </iframe>
+=======
+                  ></iframe>
+>>>>>>> Stashed changes
                 </div>
               </div>
             </div>
@@ -116,8 +145,24 @@ class Preorder2 extends React.Component {
             <div className="form4">
               <div className="middle">
                 <div className="middle2">
-                  <p>Anhd</p>
-                  <div>helasdhfasjhdblo mate</div>
+                  <iframe
+                    src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
+<<<<<<< Updated upstream
+                    width="640"
+                    height="2423"
+=======
+>>>>>>> Stashed changes
+                    frameborder="0"
+                    marginheight="0"
+                    marginwidth="0"
+                    title="image"
+<<<<<<< Updated upstream
+                  >
+                    Loading....
+                  </iframe>
+=======
+                  ></iframe>
+>>>>>>> Stashed changes
                 </div>
               </div>
             </div>
