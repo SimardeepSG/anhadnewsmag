@@ -93,22 +93,13 @@ class Preorder2 extends React.Component {
                 <div className="middle2">
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
-<<<<<<< Updated upstream
-                    width="640"
-                    height="2423"
-=======
->>>>>>> Stashed changes
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
                     title="image"
-<<<<<<< Updated upstream
                   >
                     Loading....
                   </iframe>
-=======
-                  ></iframe>
->>>>>>> Stashed changes
                 </div>
               </div>
             </div>
@@ -120,22 +111,15 @@ class Preorder2 extends React.Component {
                 <div className="middle2">
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
-<<<<<<< Updated upstream
                     width="640"
                     height="2423"
-=======
->>>>>>> Stashed changes
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
                     title="image"
-<<<<<<< Updated upstream
                   >
                     Loading....
                   </iframe>
-=======
-                  ></iframe>
->>>>>>> Stashed changes
                 </div>
               </div>
             </div>
@@ -147,22 +131,15 @@ class Preorder2 extends React.Component {
                 <div className="middle2">
                   <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLSdZu6gS-y5EGRruRbtbt8DglZLO5lzmnOmaeIE6GbwWfsMN8Q/viewform?embedded=true"
-<<<<<<< Updated upstream
                     width="640"
                     height="2423"
-=======
->>>>>>> Stashed changes
                     frameborder="0"
                     marginheight="0"
                     marginwidth="0"
                     title="image"
-<<<<<<< Updated upstream
                   >
                     Loading....
                   </iframe>
-=======
-                  ></iframe>
->>>>>>> Stashed changes
                 </div>
               </div>
             </div>
