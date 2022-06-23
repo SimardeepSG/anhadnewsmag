@@ -1,17 +1,17 @@
 import "./styles/donate.css";
 
 function sayHello() {
-  alert('You clicked me!');
+  alert("You clicked me!");
 }
 
 const Donate = () => {
   return (
     <div className="donateContainer">
-      <a href="https://react.school" target="_blank">
-        <button> Link Button </button>
+      <a href="https://react.school" target="_blank" rel="noopener noreferrer">
+        <button onClick={sayHello}> Link Button </button>
       </a>
       {/* ---------------------------------------- */}
-      
+
       <div className="donateTitle">DONATE</div>
       <div className="donateHeader">Your Donation will provide...</div>
       <div className="donateDescription">
