@@ -15,10 +15,10 @@
      margin-top: 0px;
      /* need height and overflow property for scrolling, especially heigth below or at 100vh */
    }
-
+   /* Anhad Title */
    .wrapper h1{
-     font-size: 46px;
-     margin-top: 10px;
+     font-size: 50px;
+     margin-top: 30px;
      text-align: center;
      margin-bottom: 30px;
 
@@ -38,10 +38,10 @@
      background: #fff; 
      margin: 5px;
      margin-bottom: 50px;
-     width: 300px;
+     width: 310px;
      height: 350px;
      padding: 20px;
-     line-height: 50px;
+     line-height: 40px;
      color: #8e8b8b;  
      position: relative;
      border-radius: 10%;
@@ -49,22 +49,22 @@
 
    .team .team_member h3{
      color: #989c82;
-     font-size: 38px;
+     font-size: 35px;
      margin-top: 95px;
    }
 
-   .team .team_member p.role{
-     color: #ccc;
-     margin: 12px 0;
-     font-size: 16.5px;
-     text-transform: uppercase;
-     font-weight: bolder;
+   .team .team_member p{
+     color: rgb(119, 119, 119);
+     margin: 12px;
+     padding: auto;
+     font-size: 16px;
+     line-height:18px;
    }
 
    /* This is respnsible for image and it needs to be fixed */
    .team .team_member .team_img{
      position: absolute;
-     top: 0px;
+     top: 10px;
      left: 50%;
      transform: translateX(-50%);
      width: 100px;

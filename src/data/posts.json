@@ -4,7 +4,8 @@
         "Name": "Jasmine Kaur",
         "Title": "Executive Director",
         "Location": "California",
-        "Description": "Description"
+        "Image": "",
+        "Description": "Jasmine is currently a law student at BLANK university. She has completed her Master’s in Public Policy from USC and her Bachelor’s in Sociology Honors from UCLA. She is a Los Angeles native and loves trying new ice cream flavors. Her favorite raags are Kalyaan, Sorath, and Bihaag. "
     },
     {
         "id": 2,
@@ -18,42 +19,42 @@
         "Name": "Jessica Singh",
         "Title": "Director of Editorial",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Jessica is a UCLA alum and currently a Master’s of Regulatory Science student at Johns Hopkins. She is pursuing a career in regulatory affairs within biotech and is super passionate about all things science and writing! The sakhi she holds closest to her is the story of Guru Nanak Dev Ji at Sultanpur Lodi counting out supplies of grain up to the number 13 (tera) and then graciously giving out provisions to the poor, announcing “tera, tera, tera!” in reverence of the Creator."
     },
     {
         "id": 4,
         "Name": "Parveen Kaur",
         "Title": "Director of Outreach",
         "Location": "Colorado",
-        "Description": "Description"
+        "Description": "Parveen is currently a graduate student at Regis University and is pursuing a Master’s of Accounting. She recently completed her Bachelor’s in Business Administration and Accounting from CU Boulder. One of her favorite hobbies is watching documentaries. Her favorite shabad is “Jo Maange Thankur Apne Te Soee Soee Deve”."
     },
     {
         "id": 5,
         "Name": "Ameek Kaur",
         "Title": "Director of Media",
         "Location": "New Jersey",
-        "Description": "Description"
+        "Description": "Ameek is a recent Berkeley alum with a degree in Data Science and Human Biology. She is originally from New Jersey, but doesn’t miss the cold weather at all. You can probably find Ameek at her nearest cafe with a mocha, or outdoors playing the ukulele. But her happy place is the Gurdwara langar hall."
     },
     {
         "id": 6,
         "Name": "Mukul Singh",
         "Title": "Director of Layout",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Mukul is a fourth-year Business-Economics student at UCLA. He is originally from the Bay Area and recently cofounded a sustainable toothbrush company, Zabr. He loves the peace and quiet he feels listening to kirtan echoing in the darbar."
     },
     {
         "id": 7,
         "Name": "Inderpreet Kaur",
         "Title": "Staff Artist",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Inderpreet Kaur is currently working as a clinical laboratory scientist (CLS) for Kaiser. She has a double Bachelor’s of Science in Microbiology and Immunology from UC Irvine. She is a Bay Area native and LOVES boba. She is also a mom now! Waheguruji has blessed  them with a beautiful “Ru” (Soul) named Kabir Singh. May he inspire to be like  Bhaghat Kabir Ji."
     },
     {
         "id": 8,
         "Name": "Jas Kaur ",
         "Title": "Staff Artist",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Jas Kaur is an artist & writer from Seattle. She graduated from the university of Washington and is currently working in the UX field. She is a passionate creator who wants to uplift the spirits of her sangat by having all of her art focus on Panjabi culture and Sikh history. She enjoys running, photography, and hopes to write a motivational book for other young Panjabi-American women some day soon! "
     },
     {
         "id": 9,
@@ -67,20 +68,20 @@
         "Name": "Simrit Kaur",
         "Title": "Supporting Staff",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Simrit is currently a pre nursing student at sac city college. She is a Sacramento native and loves being in nature. She was inspired to pursue nursing by Bhai Kanaya’s jeevan , how they treated everyone because they saw maharaj's presence in all. She loves listening to puratan raagis, is fond of punjabi poetry and is an avid learner of sikh itihaas."
     },
     {
         "id": 11,
         "Name": "Saihaj Singh",
         "Title": "Supporting Staff",
         "Location": "California",
-        "Description": "Description"
+        "Description": "Saihaj is currently studying Computer Science and Business Administration at the University of Southern California. He lived in the Seattle area for most of his life, though he moved a lot, and now lives in Irvine near LA. He enjoys reading, writing, playing basketball, and working out, and when it’s not in a bun or underneath his pagg, his uncut hair reaches down to his knees!"
     },
     {
         "id": 12,
         "Name": "Gurdeep Singh",
         "Title": "Supporting Staff",
         "Location": "Maryland",
-        "Description": "Description"
+        "Description": "Gurdeep is currently a computer science major at the University of Southern California(USC). He is from Maryland and loves football, lacrosse, and weightlifting. Gurdeep also loves studying Sikh history and enjoys Bhangra, farming, and listening to Punjabi music."
     }
 ]
