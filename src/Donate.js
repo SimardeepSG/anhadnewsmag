@@ -1,13 +1,25 @@
 import "./styles/donate.css";
 
+<<<<<<< HEAD
 const Donate = () => {
   return (
     <div className="donateContainer">
       <a href="https://react.school" >
         <button> Link Button </button>
+=======
+function sayHello() {
+  alert("You clicked me!");
+}
+
+const Donate = () => {
+  return (
+    <div className="donateContainer">
+      <a href="https://react.school" target="_blank" rel="noopener noreferrer">
+        <button onClick={sayHello}> Link Button </button>
+>>>>>>> e98942ea4e6b61ce280e023300516014507b95fb
       </a>
       {/* ---------------------------------------- */}
-      
+
       <div className="donateTitle">DONATE</div>
       <div className="donateHeader">Your Donation will provide...</div>
       <div className="donateDescription">
