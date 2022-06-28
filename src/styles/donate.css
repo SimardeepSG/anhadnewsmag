@@ -3,165 +3,80 @@
 @import url('https://fonts.googleapis.com/css?family=Tenor Sans');
 
 .donateContainer {
-    
-    grid-gap: 10px;
-    grid-template-columns: 1fr;
-    width: auto;
-    height: 100vh;
-    grid-template-rows: 10vw 10vw auto ;
+    overflow: scroll;
     background-color: #bada78;
     /* background: linear-gradient(
         to top, 
         blue 50%, 
         #bada78 50%, 
         100%, transparent 0%);   */
-
-    display: grid;
-
-    grid-template-areas: 
-    
-    "Title",
-    "Paragraph",
-    "bottomArea"
 }
 
-
-
-/*Donate Title touches the Donate Title*/
+/*Donate Title touches DONATE*/
 .donateTitle {
-    grid-area: "Title";
+    position: relative;
     text-align: center;
     padding-top: 5vw;
-    position: relative;
-    top: 70px;
+    position: static;
+    top: 10px;
     font-size: 5vw;
     font-family: Argent;
     font-weight: bold;
-    padding-bottom: 0px;
+    padding-bottom: 5vw;
+    color:black;
 }
-/*Donate Title touches the Donate Title*/
-.donateHeader{
-    grid-area: "Title";
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 96%;               
+    background-color:#FFFF00;
+    height: 1px;
+    position: static;
+    top: 500px;
+}
+.hr .h1{
+  position: static;
+  top: 500px;
+}
+
+/*Donate Header touches "Supporting ANHAD"*/
+.donateHeader1{
     text-align: center;
     padding-top: 5vw;
-    position: relative;
-    top: 100px;
+    position: static;
+    top: -10px;
     font-size: 3vw;
     font-family: Argent;
     font-weight: bold;
     padding-bottom: 0px;
-}
-/* touches the description underneath the donate title */
-.donateDescription {
-    grid-area: "Paragraph";
-    text-align: center;
-    font-size: 1.5vw;
-}
-
-.donateBottomTable {
-    grid-gap: 20px;
-    grid-template-rows: 1fr;
-    width: auto;
-    height: 40vh;
-    margin-bottom: 300px;
-    grid-template-columns:auto auto;
-
-    grid-area: "bottomArea";
-    display: grid;
-    justify-content: space-evenly;
- 
-
-    grid-template-areas: 
-    "column1",
-    "column2"
-}
-
-/* .donateCostMenu{
-    grid-area: "column1";
-    grid-gap: 20px;
-    grid-template-columns: 1fr;
-    width: auto;
     height: 100%;
-    grid-template-rows: 5vw auto;
-
-
-    display: grid;
-    grid-template-areas: 
-    "row1title",
-    "row2description"
-
+    color: black;
 }
 
-.donateColumn2{
-    grid-area: "column2";
-
+/*Donate Description touches the Anhand Paragraph*/
+.donateDescription {
+  position: relative;
+  top: 40px;
+  grid-area: "Paragraph";
+  text-align: center;
+  font-size: 1.5vw;
 }
 
-.donateItemTitle {
-    grid-area: "row1title";
-    background-color: #ffec56;
-    border: 2px;
-    border-style: solid;
-    width: 11vw;
-    font-family: Argent;
+/*Donate Header touches "Your Donate will Provide..."*/
+.donateHeader2{
     text-align: center;
-    font-weight: bolder;
-    align-self: center;
-    padding: 10px;
-    font-size: 1.4vw;
+    padding-top: 5vw;
+    position: relative;
+    top: 50px;
+    font-size: 3vw;
+    font-family: Argent;
+    font-weight: bold;
+    padding-bottom: 0px;
+    height: 100%;
 }
 
-
-.donateItemChart {
-    grid-gap: 20px;
-    grid-template-rows: 1fr;
-    width: auto;
-    height: auto;
-    grid-template-columns:40vw 15vw;
-    grid-area: "row2description";
-    background-color: #ffec56;
-    border: 2px;
-    border-style: solid;
-    display: grid;
-    grid-template-areas: 
-    "Item",
-    "Cost"
-
-}
-
-.donateItemItem {
-    grid-area: "Item";
-}
-
-.donateItemItem p, .donateItemCost p {
-    padding: 1vw;
-}
-
-.donateItemCost {
-    grid-area: "Cost";
-}
-
-.venmo {
-    background-color: #fdca85;
-}
-
-.dasvandh {
-    background-color: #ffc2b6;
-}
-
-
-.policy {
-    background-color: #bada78;
-    /* bada78 
-}
-
-.venmo, .policy, .dasvandh {
-    border: 2px;
-    border-style: solid;
-    padding: 20px;
-    margin: 30px;
-    width: 15vw
-} */
 
 .button {
     border: none;
@@ -171,8 +86,11 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 30px;
+    margin: 10px;
     cursor: pointer;
+    margin-left: 0px;
+    position: relative;
+    top: 100px;
   }
   
 
