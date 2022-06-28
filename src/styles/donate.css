@@ -26,19 +26,26 @@
     color:black;
 }
 
-hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 96%;               
-    background-color:#FFFF00;
-    height: 1px;
-    position: static;
-    top: 500px;
-}
-.hr .h1{
+.hr1{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color: white;
+  height: 10px;
   position: static;
   top: 500px;
+}
+
+.hr2{
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;               
+  background-color: white;
+  height: 10px;
+  position: relative;
+  top: 100px;
 }
 
 /*Donate Header touches "Supporting ANHAD"*/

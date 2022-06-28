@@ -9,7 +9,7 @@ const Donate = () => {
 
 {/* ---------------------------------------- */}
 
-<div id="line"className="hr1"><hr1 /></div>
+<div className="hr1">__________________________________________</div>
 
 {/* ---------------------------------------- */}
 
@@ -28,7 +28,7 @@ const Donate = () => {
 
 {/* ---------------------------------------- */}
 
-<div id="line"><hr2 /></div>
+<div className="hr2">____________________________________________________________________</div>
 
 {/* ---------------------------------------- */}
 
@@ -36,15 +36,7 @@ const Donate = () => {
 
 {/* -------------------------------------------------------------------------------- */}
 
-<div className="button">
-<a href="https://react.school" target="_blank" rel="noreferrer">
-  <button> $5 <br /> ONE PRINTED MAGAZINE </button>
-  <button> $5 <br /> ONE PRINTED MAGAZINE + DOMESTIC SHIPPING </button>
-  <button> $10 <br /> ONE PRINTED MAGAZINE + INTERNATIONAL SHIPPING <br />
-          [PRICE DEPENDS ON COUNTRY SELECTION] </button>
-  <button> $20 <br /> PACKAGING COSTS PER INDIVIDUAL </button>
-</a>
-</div>
+
 
 
     </div>
