@@ -4,7 +4,11 @@
 
 .donateContainer {
     overflow: scroll;
+    min-height:100%;
     background-color: #bada78;
+    position: absolute;
+    width: 1790px;
+    text-align: center;
     /* background: linear-gradient(
         to top, 
         blue 50%, 
@@ -14,16 +18,20 @@
 
 /*Donate Title touches DONATE*/
 .donateTitle {
-    position: relative;
+    position: absolute;
     text-align: center;
-    padding-top: 5vw;
-    position: static;
-    top: 10px;
+    padding-top: 3vw;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    padding-bottom: 3vw;
+    top: -50px;
+    right: 500px;
     font-size: 5vw;
     font-family: Argent;
     font-weight: bold;
-    padding-bottom: 5vw;
     color:black;
+    border: 5px solid white;
+    margin: 100px;
 }
 
 .hr1{
@@ -33,8 +41,23 @@
   width: 100%;               
   background-color: white;
   height: 10px;
-  position: static;
-  top: 500px;
+  position: absolute;
+  top: 300px;
+}
+
+/*Donate Header touches "Supporting ANHAD"*/
+.donateHeader1{
+    position: absolute;
+    top: 250px;
+    right: 600px;
+    text-align: center;
+    padding-top: 5vw;
+    font-size: 3vw;
+    font-family: Argent;
+    font-weight: bold;
+    padding-bottom: 0px;
+    height: 100%;
+    color: black;
 }
 
 .hr2{
@@ -44,61 +67,101 @@
   width: 100%;               
   background-color: white;
   height: 10px;
-  position: relative;
-  top: 100px;
-}
-
-/*Donate Header touches "Supporting ANHAD"*/
-.donateHeader1{
-    text-align: center;
-    padding-top: 5vw;
-    position: static;
-    top: -10px;
-    font-size: 3vw;
-    font-family: Argent;
-    font-weight: bold;
-    padding-bottom: 0px;
-    height: 100%;
-    color: black;
+  position: absolute;
+  top: 700px;
 }
 
 /*Donate Description touches the Anhand Paragraph*/
 .donateDescription {
-  position: relative;
-  top: 40px;
-  grid-area: "Paragraph";
+  position: absolute;
+  top: 450px;
   text-align: center;
   font-size: 1.5vw;
 }
 
 /*Donate Header touches "Your Donate will Provide..."*/
 .donateHeader2{
-    text-align: center;
-    padding-top: 5vw;
-    position: relative;
-    top: 50px;
+    position: absolute;
+    top: 675px;
+    right: 500px;
     font-size: 3vw;
     font-family: Argent;
     font-weight: bold;
+    padding-top: 5vw;
     padding-bottom: 0px;
-    height: 100%;
 }
 
+.Box1{
+  position: absolute;
+  top: 900px;
+  right: 1300px;
+  background: lightgray;
+  border: 5px solid gray;
+  font-size: 23px;
+  font-family: Argent;
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+}
+
+.Box2{
+  position: absolute;
+  top: 900px;
+  right: 950px;
+  background: lightgray;
+  border: 5px solid gray;
+  font-size: 23px;
+  font-family: Argent;
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+}
+
+.Box3{
+  position: absolute;
+  top: 900px;
+  right: 600px;
+  background: lightgray;
+  border: 5px solid gray;
+  font-size: 23px;
+  font-family: Argent;
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+}
+
+.Box4{
+  position: absolute;
+  top: 900px;
+  right: 250px;
+  background: lightgray;
+  border: 5px solid gray;
+  font-size: 23px;
+  font-family: Argent;
+  padding-top: 3vw;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  padding-bottom: 3vw;
+}
 
 .button {
-    border: none;
-    color: white;
-    padding: 20px;
+    position: relative;
+    top: 1150px;
+    color: red;
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
     font-size: 16px;
     margin: 10px;
-    cursor: pointer;
-    margin-left: 0px;
-    position: relative;
-    top: 100px;
+    padding: 10px;
+    padding-bottom: 10px;
+    border-radius: 50%;
   }
+
+  .blankspace {
+    padding: 20vh;
+}
   
 
 

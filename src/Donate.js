@@ -34,10 +34,27 @@ const Donate = () => {
 
 <div className="donateHeader2">Your Donation will provide...</div>
 
-{/* -------------------------------------------------------------------------------- */}
+{/* ---------------------------------------- */}
 
+<div className="Box1">$5 <br/>One Printed Magazine</div>
+<div className="Box2">$5 <br/>One Printed Magazine</div>
+<div className="Box3">$10 <br/>One Printed Magazine</div>
+<div className="Box4">$20 <br/>One Printed Magazine</div>
 
+{/* ---------------------------------------- */}
 
+<a href="https://react.school" target="_blank" rel="noreferrer">
+  <button className="button"> $10  </button>
+  <button className="button"> $15 </button>
+  <button className="button"> $20  </button>
+  <button className="button"> $25  </button>
+  <button className="button"> Other  </button>
+</a>
+
+<div className="Box1">$5 <br/>One Printed Magazine</div>
+<div className="Box2">$5 <br/>One Printed Magazine</div>
+<div className="Box3">$10 <br/>One Printed Magazine</div>
+<div className="Box4">$20 <br/>One Printed Magazine</div>
 
     </div>
   );
