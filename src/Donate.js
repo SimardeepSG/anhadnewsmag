@@ -1,6 +1,7 @@
 import "./styles/donate.css";
 
 const Donate = () => {
+
   return (
     <div className="donateContainer">
 {/* ---------------------------------------- */}
@@ -36,12 +37,14 @@ const Donate = () => {
 
 {/* ---------------------------------------- */}
 
-<div className="Box1">$5 <br/>One Printed Magazine</div>
-<div className="Box2">$5 <br/>One Printed Magazine</div>
-<div className="Box3">$10 <br/>One Printed Magazine</div>
-<div className="Box4">$20 <br/>One Printed Magazine</div>
+<div className="Box1">$5<br/>One Printed Magazine</div>
+<div className="Box2">$5<br/>One Printed Magazine<br/>+<br/>Domestic Shipping</div>
+<div className="Box3">$10<br/>One Printed Magazine<br/>+<br/>International Shipping</div>
+<div className="Box4">$20<br/>Packaging Costs<br/>Per Individual</div>
 
 {/* ---------------------------------------- */}
+
+<div className="donateHeader3">Select an Amount</div>
 
 <a href="https://react.school" target="_blank" rel="noreferrer">
   <button className="button"> $10  </button>
@@ -51,12 +54,14 @@ const Donate = () => {
   <button className="button"> Other  </button>
 </a>
 
-<div className="Box1">$5 <br/>One Printed Magazine</div>
-<div className="Box2">$5 <br/>One Printed Magazine</div>
-<div className="Box3">$10 <br/>One Printed Magazine</div>
-<div className="Box4">$20 <br/>One Printed Magazine</div>
+<div className="blankspace">$5<br/></div>
+
+
+
 
     </div>
+
+
   );
 };
 
