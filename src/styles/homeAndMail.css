@@ -3,12 +3,9 @@
   src: local('Prabhki.ttf'), url(../../src/fonts/Prabhki.ttf) format('truetype');
 }
 
-.home {
-    overflow: scroll;
-  }
+/* .home{} */
 
-  .home-page-div{
-    overflow: scroll;
+.home-page-div{
     height: 200vh;
     margin-top: -8%;
   }
@@ -19,7 +16,7 @@
     background-image: url('../images/GGSPic.jpg') ;
     background-blend-mode: multiply;
     box-shadow: inset 0 0 0 100vw rgba(255, 218, 178, .5);
-    background-size: 100% 80%;   
+    background-size: 100% 100%;   
     top: -6px;
     right: -600px;
     bottom: 0px;
@@ -30,6 +27,7 @@
     transform: translateY(62px);
   }
 
+/* touches Anhad Magazine  */
   .home-page-div h2{
     font-size: 1.94vw;
     color: black;
@@ -40,11 +38,8 @@
     margin-top: 1%;
     font-weight: lighter;
     margin-top: 10%;
-
-
-  
   }
-
+/* touches the Anhad Punjabi Title */
   .home-page-div h1{
     font-size: 16.39vw;
     color: black;
@@ -68,7 +63,7 @@
   }
   
   
-  
+  /* Description beneath Anhad */
   .home-page-div p{
     font-family: "Argent";
     font-style: italic;

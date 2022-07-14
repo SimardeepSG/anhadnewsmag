@@ -56,9 +56,6 @@ const Donate = () => {
 
 <div className="blankspace">$5<br/></div>
 
-
-
-
     </div>
 
 

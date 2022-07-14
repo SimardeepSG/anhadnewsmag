@@ -45,6 +45,10 @@ class Home extends Component {
           </div>
           <div className="Arrow">
             <Varrow></Varrow>
+{/* 
+            <a href="https://react.school" target="_blank" rel="noreferrer">
+              <button className="button"> Pre-Order Now!  </button>
+              </a> */}
           </div>
         </body>
       </div>
